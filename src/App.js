@@ -5,6 +5,7 @@ import { useState, useEffect } from "react"
 import NavBar from './components/NavBar';
 import MovieList from './components/MovieList';
 import Genres from './components/Genres';
+import NewMovieForm from './components/NewMovieForm';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -37,14 +38,15 @@ function App() {
     })
   }
 
+
   return (
 
     <div className={isDarkMode ? "App" : "App light"}>
       <NavBar isDarkMode={isDarkMode} handleDarkMode={handleDarkMode} />
-      <MovieList movies={movies} onDeleteMovies={onDeleteMovies} />
       <Home />
+      <MovieList movies={movies} onDeleteMovies={onDeleteMovies} />
       <Genres genres={genres} />
-
+      <NewMovieForm />
 
     </div>
   );
