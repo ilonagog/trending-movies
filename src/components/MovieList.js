@@ -1,8 +1,12 @@
 import React from 'react'
+import MoviePage from './MoviePage'
 
-const MovieList = () => {
+function MovieList({ movies }) {
+
+    const movieListPage = movies.map(movie => <MoviePage key={movie.id} movie={movie} />)
     return (
         <div>
+            {movieListPage}
 
         </div>
     )
