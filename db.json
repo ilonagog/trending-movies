@@ -1,4 +1,15 @@
 {
+    "genres": [
+        "All",
+        "Action",
+        "Cartoon",
+        "Comedy",
+        "Crime",
+        "Drama",
+        "History",
+        "Sci-fi",
+        "Thriller"
+    ],
     "movies": [
         {
             "id": 1,
