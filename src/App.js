@@ -26,16 +26,22 @@ function App() {
   //console.log(genres)
 
 
-
   const handleDarkMode = () => {
     setIsDarkMode((isDarkMode) => !isDarkMode);
+  }
+
+  const onDeleteMovies = (id) => {
+    setMovies(prevMovies => {
+      const filteredArray = prevMovies.filter(movie => movie.id !== id)
+      return filteredArray
+    })
   }
 
   return (
 
     <div className={isDarkMode ? "App" : "App light"}>
       <NavBar isDarkMode={isDarkMode} handleDarkMode={handleDarkMode} />
-      <MovieList movies={movies} />
+      <MovieList movies={movies} onDeleteMovies={onDeleteMovies} />
       <Home />
       <Genres genres={genres} />
 

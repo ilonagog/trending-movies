@@ -1,12 +1,20 @@
 import { useState } from 'react'
 import ReactCardFlip from 'react-card-flip';
 
-function MoviePage({ movie }) {
-    const { title, year, poster, genre, star, about } = movie
+function MoviePage({ movie, onDeleteMovie }) {
+    const { id, title, year, poster, genre, star, about } = movie
     const [isFlipped, setIsFlipped] = useState(false)
     const handleFlip = () => {
         setIsFlipped(!isFlipped)
     }
+
+    const handleDeleteClick = () => {
+        fetch(`http://localhost:3000/movies/${id}`, {
+            method: "DELETE"
+        })
+            .then(res => res.json())
+            .then(() => onDeleteMovie(id))
+    };
 
 
     return (
@@ -24,7 +32,7 @@ function MoviePage({ movie }) {
                 <footer className='footer'>
                     <button className='star' >⭐{star}</button>
                     <button className="info" onClick={handleFlip}>Info</button>
-                    <button className="delete" >🚮</button>
+                    <button className="delete" onClick={handleDeleteClick} >🚮</button>
                 </footer>
             </li></div>
 
