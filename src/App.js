@@ -7,6 +7,7 @@ import NavBar from './components/NavBar';
 import MovieList from './components/MovieList';
 import Genres from './components/Genres';
 import NewMovieForm from './components/NewMovieForm';
+import TrailerSlide from './components/TrailerSlide';
 
 function App() {
   const [selectedGenre, setSelectedGenre] = useState("All")
@@ -60,9 +61,14 @@ function App() {
   return (
 
     <div className={isDarkMode ? "App" : "App light"}>
+
       <NavBar isDarkMode={isDarkMode} handleDarkMode={handleDarkMode} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<>
+          <TrailerSlide />
+          <Home />
+        </>
+        } />
         <Route path="/movies" element={<>
           <Genres genres={genres} selectedGenre={selectedGenre} setSelectedGenre={setSelectedGenre} />
           <MovieList movies={moviesFilteredByGenres} onDeleteMovie={onDeleteMovie} onUpdateMovie={handleUpdateMovie} />

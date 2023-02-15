@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -58,6 +63,7 @@ h2 {
 }
 
 /* layout */
+
 * {
   padding: 0;
   margin: 0;
@@ -75,7 +81,7 @@ h2 {
 body {
   font-family: "Fira Code", monospace;
   font-size: 16px;
-  color: var(--color);
+  /* color: var(--color); */
   background-color: var(--background);
 }
 
@@ -103,12 +109,13 @@ h3 {
 }
 
 /* buttons */
+
 button {
   padding: 0.5rem 0.75rem;
   border: none;
   font: inherit;
   font-weight: 600;
-  color: inherit;
+  color: black;
   cursor: pointer;
   color: var(--primary);
   background-color: var(--background);
@@ -120,7 +127,7 @@ button.active,
 button:focus,
 button:hover {
   outline: none;
-  color: var(--white);
+  /* color: var(--white); */
   background-color: var(--primary);
   border: 2px solid var(--primary);
 }
@@ -132,6 +139,7 @@ button:disabled {
 }
 
 /* header */
+
 header {
   padding: 1rem;
   display: flex;
@@ -148,6 +156,7 @@ header {
 }
 
 /* forms */
+
 .form {
   display: flex;
   flex-direction: column;
@@ -166,7 +175,7 @@ textarea,
 select {
   margin-top: 0.25rem;
   margin-bottom: 1rem;
-  padding: 0.5rem;
+
   border: none;
   font-size: 1.25rem;
   font-weight: bold;
@@ -177,6 +186,8 @@ select {
 input:focus,
 textarea:focus,
 select:focus {
+  font-family: 'Times New Roman', Times, serif;
+  color: #030416;
   outline: none;
   border: 2px solid var(--primary);
 }
@@ -187,12 +198,11 @@ select:focus {
   text-align: center;
   width: 30%;
   height: 0%;
-  background-color: #d0d8d3;
+  background-color: #ffffff;
   color: #030416;
 }
 
 ::placeholder {
-
 
   color: black
 }
@@ -203,6 +213,7 @@ select:focus {
 }
 
 /* Filter */
+
 .filter {
   display: flex;
   flex-wrap: wrap;
@@ -217,10 +228,11 @@ select:focus {
 .videos {
   align-items: center;
   column-gap: 3rem;
-  display: center;
+  display: flex;
 }
 
 .videoContainer {
+  padding-left: 20px;
   align-items: center;
 }
 
@@ -229,6 +241,7 @@ select:focus {
 }
 
 /* cards */
+
 .cards {
   padding: 15px;
   flex-wrap: wrap;
@@ -260,6 +273,7 @@ select:focus {
 }
 
 .card .image img {
+  display: inline;
   width: 180px;
   height: 175px;
   object-fit: cover;
@@ -274,6 +288,7 @@ select:focus {
 }
 
 .details p {
+  color: steelblue;
   margin: 0.5rem 0;
 }
 
@@ -292,7 +307,7 @@ button {
   border: none;
   font: inherit;
   font-weight: 600;
-  color: inherit;
+  color: black;
   cursor: pointer;
   color: var(--primary);
   background-color: var(--background);
@@ -307,18 +322,22 @@ button:focus,
 button:hover {
   outline: none;
   /* color: var(--white); */
+
   background-color: var(--blue);
   border: 2px solid var(--primary);
 }
 
+
 nav {
+
   padding: 1rem;
-  display: flex;
+  display: flex-wrap;
   justify-content: space-between;
   align-content: center;
 }
 
 .navigation * {
+  display: flex-wrap;
   margin: 0 0.5rem;
 }
 
