@@ -13,9 +13,7 @@ function NavBar({ isDarkMode, handleDarkMode }) {
                     <Link className="button" to="/movies">
                         Movies
                     </Link>
-                    <Link className="button" to="/genres">
-                        Genres
-                    </Link>
+
                     <Link className="button" to="/movie/new">
                         Add New Movie
                     </Link>

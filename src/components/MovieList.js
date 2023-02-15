@@ -1,21 +1,28 @@
-import { useState } from 'react'
-import MoviePage from './MoviePage'
+import React, { useState } from 'react';
+import MoviePage from './MoviePage';
 
-function MovieList({ movies, onDeleteMovies }) {
+function MovieList({ movies, onDeleteMovie, onUpdateMovie }) {
+
     const [search, setSearch] = useState("");
 
     const searchResults = movies.filter((movie) => {
         return movie.title.toLowerCase().includes(search.toLowerCase())
     })
-    const movieListPage = searchResults.map(movie => <MoviePage key={movie.id} movie={movie} genre={movie.genre} onDeleteMovie={onDeleteMovies} />)
+
+    const movieListPage = searchResults.map(movie =>
+        <MoviePage movie={movie} key={movie.id} genre={movie.genre} onDeleteMovie={onDeleteMovie} onUpdateMovie={onUpdateMovie} />
+    )
+
     const handleChange = (e) => setSearch(e.target.value)
 
     return (
         <div>
             <input type="text" id="search" placeholder="     Search....    🔍" onChange={handleChange} />
-            {movieListPage}
-
+            <ul className='cards'>
+                {movieListPage}
+            </ul>
         </div>
+
     )
 }
-export default MovieList
+export default MovieList;

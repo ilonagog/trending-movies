@@ -230,6 +230,7 @@ select:focus {
 
 /* cards */
 .cards {
+  padding: 15px;
   flex-wrap: wrap;
   margin: 0;
   list-style: none;
@@ -259,7 +260,7 @@ select:focus {
 }
 
 .card .image img {
-  width: 100%;
+  width: 180px;
   height: 175px;
   object-fit: cover;
 }
