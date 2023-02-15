@@ -1,375 +1,399 @@
 {
-    "genres": [
-        "All",
-        "Action",
-        "Cartoon",
-        "Comedy",
-        "Crime",
-        "Drama",
-        "History",
-        "Sci-fi",
-        "Thriller"
-    ],
-    "movies": [
-        {
-            "id": 1,
-            "title": "Dark Knight",
-            "year": "2008",
-            "poster": "./images/dark knight.jpg",
-            "genre": "Action",
-            "star": 12,
-            "about": "Set within a year after the events of Batman Begins (2005), Batman, Lieutenant James Gordon, and new District Attorney Harvey Dent successfully begin to round up the criminals that plague Gotham City, until a mysterious and sadistic criminal mastermind known only as The Joker appears in Gotham, creating a new wave of chaos. Batman's struggle against The Joker becomes deeply personal, forcing him to confront everything he believes and improve his technology to stop him. A love triangle develops between Bruce Wayne, Dent, and Rachel Dawes."
-        },
-        {
-            "id": 2,
-            "title": "Kingsman: The Secret Service",
-            "year": "2014",
-            "poster": "./images/kingsman.jpg",
-            "genre": "Action",
-            "star": 13,
-            "about": "A young man named Gary Eggsy Unwin (Taron Egerton), whose father died when he was a young boy, is dealing with living with the creep his mother is with now, who mistreats her and him. He goes out and does something to one of the creep's friends. He gets arrested and he calls the number a man gave him around the time his father died, to call if he needs help. A man named Harry Hart (Colin Firth) approaches him and tells him he's the one who helped him. He tells him that he knew his father. When the man Eggsy slighted wants some payback, Harry takes care of him and his companions single-handedly. Harry then tells Eggsy that he's part of a secret organization called The Kingsman, and his father was also part of it. He died trying to make the world safe. Harry offers Eggsy the opportunity to be a Kingsman, and he takes it. He undergoes a gruelling training course. Harry is looking into the demise of another Kingsman, and the trail leads him to tech billionaire Valentine, a.k.a. V (Samuel L. Jackson), who is also curious about the group following him, the Kingsman."
-        },
-        {
-            "id": 3,
-            "title": "Bullet Train",
-            "year": "2022",
-            "poster": "./images/bullettrain.jpg",
-            "genre": "Action",
-            "star": 3,
-            "about": "Unlucky assassin Ladybug (Brad Pitt) is determined to do his job peacefully after one too many gigs has gone off the rails. Fate has other plans, however: Ladybug's latest mission puts him on a collision course with lethal adversaries from around the globe--all with connected, yet conflicting, objectives--on the world's fastest train. The end of the line is just the beginning in this non-stop thrill-ride through modern-day Japan."
-        },
-        {
-            "id": 4,
-            "title": "The Batman",
-            "year": "2022",
-            "poster": "./images/batman.jpg",
-            "genre": "Action",
-            "star": 8,
-            "about": "On Halloween, Gotham City mayor Don Mitchell Jr. is murdered by a serial killer calling himself the Riddler. Billionaire Bruce Wayne, who has operated for two years as the vigilante Batman, investigates alongside the Gotham City Police Department (GCPD). Lieutenant James Gordon discovers that the Riddler left a message for Batman, but commissioner Pete Savage berates him for allowing a vigilante to enter the crime scene and forces Batman to leave. The Riddler kills Savage and leaves another message for Batman."
-        },
-        {
-            "id": 5,
-            "title": "Skyfall",
-            "year": "2012",
-            "poster": "./images/skyfall.jpg",
-            "genre": "Action",
-            "star": 6,
-            "about": "When James Bond's (Daniel Craig's) latest assignment goes gravely wrong and Agents around the world are exposed, MI6 is attacked, forcing (M Dame Judi Dench) to relocate the agency. These events cause her authority and position to be challenged by Gareth Mallory (Ralph Fiennes), the new Chairman of the Intelligence and Security Committee. With MI6 now compromised from both inside and out, M is left with one ally she can trust: Bond. 007 takes to the shadows, aided only by field agent, Miss Eve Moneypenny (Naomie Harris), following a trail to the mysterious Tiago Rodriguez, a.k.a. Raoul Silva (Javier Bardem), whose lethal and hidden motives have yet to reveal themselves."
-        },
-        {
-            "id": 6,
-            "title": "Trolls",
-            "year": "2016",
-            "poster": "./images/trolls.jpg",
-            "genre": "Cartoon",
-            "star": 4,
-            "about": "From the creators of Shrek comes the most smart, funny, irreverent animated comedy of the year, DreamWorks' Trolls. This holiday season, enter a colorful, wondrous world populated by hilariously unforgettable characters and discover the story of the overly optimistic Trolls, with a constant song on their lips, and the comically pessimistic Bergens, who are only happy when they have trolls in their stomach. Featuring original music from Justin Timberlake, and soon-to-be classic mash-ups of songs from other popular artists, the film stars the voice talents of Anna Kendrick, Justin Timberlake, Russell Brand, James Corden, Kunal Nayyar, Ron Funches, Icona Pop, Gwen Stefani, and many more. DreamWorks' TROLLS is a fresh, broad comedy filled with music, heart and hair-raising adventures. In November of 2016, nothing can prepare you for our new Troll world."
-        },
-        {
-            "id": 7,
-            "title": "Sing ",
-            "year": "2016",
-            "poster": "./images/sing.jpg",
-            "genre": "Cartoon",
-            "star": 0,
-            "about": "In a world of anthropomorphic animals, koala Buster Moon owns a theater, having been interested in show business since his father took him to his first music show as a child. Following financial problems brought up by the bank representative Judith, he tells his wealthy friend Eddie that he will host a singing competition with a prize of $1,000. But Buster's assistant, Miss Crawly, accidentally appends two extra zeroes, and the promotional fliers showing $100,000 are blown out of Buster's office into the city streets."
-        },
-        {
-            "id": 8,
-            "title": "Vivo ",
-            "year": "2021",
-            "poster": "./images/vivo.jpg",
-            "genre": "Cartoon",
-            "star": "0",
-            "about": "Vivo follows a one-of-kind kinkajou (aka a rainforest honey bear) who spends his days playing music to the crowds in a lively square with his beloved owner Andrés. Though they don't speak the same language, Vivo and Andrés are the perfect duo through their common love of music. But when tragedy strikes shortly after Andrés receives a letter from the famous Marta Sandoval, inviting her old partner to her farewell concert with the hope of reconnecting, it's up to Vivo to deliver a message that Andrés never could: A love letter to Marta, written long ago, in the form of a song. Yet in order to get to Marta, who lives a world away, Vivo needs help from Gabi, an energetic tween who bounces to the beat of her own offbeat drum, to fulfill his owner's wishes."
-        },
-        {
-            "id": 9,
-            "title": "Brave",
-            "year": "2012",
-            "poster": "./images/brave.jpg",
-            "genre": "Cartoon",
-            "star": 9,
-            "about": "Set in Scotland in a rugged and mythical time, this movie features Princess Merida (Kelly Macdonald), an aspiring archer and impetuous daughter of Queen Elinor (Dame Emma Thompson). Merida makes a reckless choice that unleashes unintended peril and forces her to spring into action to set things right."
-        },
-        {
-            "id": 10,
-            "title": "Tangled",
-            "year": "2010",
-            "poster": "./images/tangled.jpg",
-            "genre": "Cartoon",
-            "star": 0,
-            "about": "After receiving the healing powers from a magical flower, the baby Princess Rapunzel is kidnapped from the palace in the middle of the night by Mother Gothel. Mother Gothel knows that the flower's magical powers are now growing within the golden hair of Rapunzel, and to stay young, she must lock Rapunzel in her hidden tower. Rapunzel is now a teenager and her hair has grown to a length of 70-feet. The beautiful Rapunzel has been in the tower her entire life, and she is curious of the outside world. One day, the bandit Flynn Ryder scales the tower and is taken captive by Rapunzel. Rapunzel strikes a deal with the charming thief to act as her guide to travel to the place where the floating lights come from that she has seen every year on her birthday. Rapunzel is about to have the most exciting and magnificent journey of her life."
-        },
-        {
-            "id": 11,
-            "title": "Hangover",
-            "year": "2009",
-            "poster": "./images/hangover.jpg",
-            "genre": "Comedy",
-            "star": 0,
-            "about": "Angelenos Doug Billings and Tracy Garner are about to get married. Two days before the wedding, the four men in the wedding party - Doug, Doug's two best buddies Phil Wenneck and Stu Price, and Tracy's brother Alan Garner - hop into Tracy's father's beloved Mercedes convertible for a 24-hour stag party to Las Vegas. Phil, a married high school teacher, has the same maturity level as his students when he's with his pals. Stu, a dentist, is worried about everything, especially what his controlling girlfriend Melissa thinks. Because she disapproves of traditional male bonding rituals, Stu has to lie to her about the stag, he telling her that they are going on a wine tasting tour in the Napa Valley. Regardless, he intends on eventually marrying her, against the advice and wishes of his friends. And Alan seems to be unaware of what are considered the social graces of the western world."
-        },
-        {
-            "id": 12,
-            "title": "Vacation",
-            "year": "2015",
-            "poster": "./images/vacation.jpg",
-            "genre": "Comedy",
-            "star": "0",
-            "about": "Following in the footsteps of his father, Clark Griswold, the man with a vision in National Lampoon's Vacation (1983), his son, too, the hard-working family man, Rusty Griswold, wants to have some quality time with his wife, Debbie, and their two sons, Kevin and James. With the idea of revisiting the place of his vivid childhood memories, the exciting Walley World, keep coming to mind, Rusty decides to surprise his family with his proposal for an unforgettable trip across the country in their rented Albanian SUV. However, as the Griswolds hit the road for some serious family-bonding, this is easier said than done, and, disaster after disaster, Rusty's romantic intentions seem to go down the drain. Can some minor mishaps thwart Rusty's plans for creating the perfect family vacation?"
-        },
-        {
-            "id": 13,
-            "title": "We're Miller's",
-            "year": "2013",
-            "poster": "./images/we are millers.jpg",
-            "genre": "Comedy",
-            "star": "0",
-            "about": "After being robbed of a week's take, small-time pot dealer David is forced by his boss to go to Mexico to pick up a load of marijuana. In order to improve his odds of making it past the border, David asks the broke stripper Rose and two local teenagers to join him and pretend they're on a family holiday."
-        },
-        {
-            "id": 14,
-            "title": "Murder Mystery",
-            "year": "2019",
-            "poster": "./images/murder mystery .jpg",
-            "genre": "Comedy",
-            "star": "0",
-            "about": "When an NYC cop (Adam Sandler) finally takes his wife (Jennifer Aniston) on a long promised European trip, a chance meeting on the flight gets them invited to an intimate family gathering on the Super Yacht of elderly billionaire Malcolm Quince. When Quince is murdered, they become the prime suspects in a modern day whodunit."
-        },
-        {
-            "id": 15,
-            "title": "The Other Woman",
-            "year": "2014",
-            "poster": "./images/the_other_woman.jpg",
-            "genre": "Comedy",
-            "star": "0",
-            "about": "After discovering that her boyfriend is married, Carly Whitten tries to get her ruined life back on track. But when she accidentally meets the wife he's been cheating on, she realizes that they have much in common, and her sworn enemy becomes her greatest friend. When yet another affair is discovered, all three women team up to plot mutual revenge on their cheating, lying, three-timing SOB."
-        },
-        {
-            "id": 16,
-            "title": "Bronx Tale",
-            "year": "2014",
-            "poster": "./images/bronx tale.jpg",
-            "genre": "Crime",
-            "star": "0",
-            "about": "The Bronx, New York, 1960. 9-year-old Calogero grows up admiring and fascinated by the local mob boss, Sonny. Calogero's father, Lorenzo, wants to have nothing to do with the mob and does his best to keep his son away from Sonny and mob business. However, it may prove a losing battle."
-        },
-        {
-            "id": 17,
-            "title": "Casino",
-            "year": "2014",
-            "poster": "./images/casino.jpg",
-            "genre": "Crime",
-            "star": 6,
-            "about": "This Martin Scorsese film depicts the Janus-like quality of Las Vegas--it has a glittering, glamorous face, as well as a brutal, cruel one. Ace Rothstein and Nicky Santoro, mobsters who move to Las Vegas to make their mark, live and work in this paradoxical world. Seen through their eyes, each as a foil to the other, the details of mob involvement in the casinos of the 1970s and '80s are revealed. Ace is the smooth operator of the Tangiers casino, while Nicky is his boyhood friend and tough strongman, robbing and shaking down the locals. However, they each have a tragic flaw--Ace falls in love with a hustler, Ginger, and Nicky falls into an ever-deepening spiral of drugs and violence."
-        },
-        {
-            "id": 18,
-            "title": "GoodFellas",
-            "year": "2014",
-            "poster": "./images/goodfellas.jpg",
-            "genre": "Crime",
-            "star": "0",
-            "about": "Henry Hill might be a small time gangster, who may have taken part in a robbery with Jimmy Conway and Tommy De Vito, two other gangsters who might have set their sights a bit higher. His two partners could kill off everyone else involved in the robbery, and slowly start to think about climbing up through the hierarchy of the Mob. Henry, however, might be badly affected by his partners' success, but will he consider stooping low enough to bring about the downfall of Jimmy and Tommy?"
-        },
-        {
-            "id": 19,
-            "title": "Lord of War ",
-            "year": "2005",
-            "poster": "./images/lordofwar.jpg",
-            "genre": "Crime",
-            "star": "0",
-            "about": "This movie charts the rise and fall of Yuri Orlov, from his early days in the early 1980s in Little Odessa, selling guns to mobsters in his local neighborhood, through to his ascension through the decade of excess and indulgence into the early 1990s, where he forms a business partnership with an African warlord and his psychotic son. This movie also charts his relationship through the years with his younger brother, his marriage to a famous model, his relentless pursuit by a determined INTERPOL Agent and his inner demons that sway between his drive for success and the immorality of what he does."
-        },
-        {
-            "id": 20,
-            "title": "Legend",
-            "year": "2015",
-            "poster": "./images/legend.jpg",
-            "genre": "Crime",
-            "star": "0",
-            "about": "The true story of London's most notorious gangsters, twins Reggie and Ronnie Kray. As the brothers rise through the criminal underworld, Ronnie advances the family business with violence and intimidation while Reggie struggles to go legitimate for local girl Frances Shea. In and out of prison, Ronnie's unpredictable tendencies and the slow disintegration of Reggie's marriage threaten to bring the brothers' empire tumbling to the ground."
-        },
-        {
-            "id": 21,
-            "title": "Beautiful Mind",
-            "year": "2014",
-            "poster": "./images/beautiful mind.jpg",
-            "genre": "Drama",
-            "star": "0",
-            "about": "From the heights of notoriety to the depths of depravity, John Forbes Nash, Jr. experienced it all. A mathematical genius, he made an astonishing discovery early in his career and stood on the brink of international acclaim. But the handsome and arrogant Nash soon found himself on a painful and harrowing journey of self-discovery. After many years of struggle, he eventually triumphed over his tragedy, and finally - late in life - received the Nobel Prize."
-        },
-        {
-            "id": 22,
-            "title": "Leon",
-            "year": "1994",
-            "poster": "./images/leon.jpg",
-            "genre": "Drama",
-            "star": "0",
-            "about": "After her father, step-mother, step-sister and little brother are killed by her father's employers, the 12-year-old daughter of an abject drug dealer manages to take refuge in the apartment of a professional hitman who at her request teaches her the methods of his job so she can take her revenge on the corrupt DEA agent who ruined her life by killing her beloved brother."
-        },
-        {
-            "id": 23,
-            "title": "The Stoning of Soraya M",
-            "year": "2008",
-            "poster": "./images/stoning_of_soraya_m.jpg",
-            "genre": "Drama",
-            "star": "0",
-            "about": "After the fall of the last Shah and the end of the monarchy, Iran is on the brink of a new era. While rushing to the borders, French journalist Freidoune Sahebjam is approached by a woman covered in a black chador, who desperately asks for a meeting with him to disclose the tragic events that led to the cruel, inhumane punishment of her niece Soraya the night before. Reluctant but intrigued, Freidoune begins to record the unspeakable story of the mother of four who was wrongfully accused of adultery in a land where women have no say. Little by little--between malicious gossip and devious plots, false accusations and the machinations of a whole village--Soraya's abusive husband will finally force a unanimous verdict against a woman who defiled Islam and the entire village in the eyes of her family. However, will yesterday's tragic events, ever see the light of day?"
-        },
-        {
-            "id": 24,
-            "title": "The Good Nurse",
-            "year": "2022",
-            "poster": "./images/good_nurse.jpg",
-            "genre": "Drama",
-            "star": "0",
-            "about": "Amy, a compassionate nurse and single mother struggling with a life-threatening heart condition, is stretched to her physical and emotional limits by the hard and demanding night shifts at the ICU. But help arrives when Charlie, a thoughtful and empathetic fellow nurse, starts at her unit. While sharing long nights at the hospital, the two develop a strong and devoted friendship, and for the first time in years, Amy truly has faith in her and her young daughters' future. But after a series of mysterious patient deaths sets off an investigation that points to Charlie as the prime suspect, Amy is forced to risk her life and the safety of her children to uncover the truth."
-        },
-        {
-            "id": 25,
-            "title": "The Danish Girl",
-            "year": "2015",
-            "poster": "./images/danish_girl.jpg",
-            "genre": "Drama",
-            "star": "0",
-            "about": "Copenhagen, Denmark, 1926. Einar Wegener (played by Eddie Redmayne) and his wife Gerda (Alicia Vikander) are a happily married couple. Both are artists, Einar preferring landscapes and she portraits. One day Einar poses for a portrait of Gerda's while wearing a dress. This is initially done as a lark, as is the later attendance at a party dressed as a woman. However, Einar soon discovers that she is in fact a woman and over time prefers being Lili. At first she and Gerda try to have her situation cured but this leads nowhere (other than to many doctors trying to have Lili locked up as a pervert and/or lunatic). Her voyage of self-discovery will ultimately lead to her undergoing the first ever sex-change operation."
-        },
-        {
-            "id": 26,
-            "title": "Apocalypto",
-            "year": "2006",
-            "poster": "./images/apocalypto.jpg",
-            "genre": "History",
-            "star": "0",
-            "about": "In the Maya civilization, a peaceful tribe is brutally attacked by warriors seeking slaves and human beings for sacrifice for their gods. Jaguar Paw hides his pregnant wife and his son in a deep hole nearby their tribe and is captured while fighting with his people. An eclipse spares his life from the sacrifice and later he has to fight to survive and save his beloved family."
-        },
-        {
-            "id": 27,
-            "title": "Braveheart",
-            "year": "1995",
-            "poster": "./images/braveheart.jpg",
-            "genre": "History",
-            "star": "0",
-            "about": "William Wallace is a Scottish rebel who leads an uprising against the cruel English ruler Edward the Longshanks, who wishes to inherit the crown of Scotland for himself. When he was a young boy, William Wallace's father and brother, along with many others, lost their lives trying to free Scotland. Once he loses another of his loved ones, William Wallace begins his long quest to make Scotland free once and for all, along with the assistance of Robert the Bruce."
-        },
-        {
-            "id": 28,
-            "title": "Kingdom Of Heaven",
-            "year": "2005",
-            "poster": "./images/kingdom of heaven.jpg",
-            "genre": "History",
-            "star": "0",
-            "about": "It is the time of the Crusades during the Middle Ages -- the world-shaping 200-year collision between Europe and the East. A blacksmith named Balian has lost his family and nearly his faith. The religious wars raging in the far-off Holy Land seem remote to him, yet he is pulled into that immense drama. Amid the pageantry and intrigues of medieval Jerusalem, he falls in love, grows into a leader, and ultimately uses all his courage and skill to defend the city against staggering odds. Destiny comes seeking Balian in the form of a great knight, Godfrey of Ibelin, a Crusader briefly home to France from fighting in the East. Revealing himself as Balian's father, Godfrey shows him the true meaning of knighthood and takes him on a journey across continents to the fabled Holy City. In Jerusalem at that moment--between the Second and Third Crusades--a fragile peace prevails, through the efforts of its enlightened Christian king, Baldwin IV, aided by his advisor Tiberias, and the military restraint of the legendary Muslim leader Saladin Ayubi. But Baldwin's days are numbered, and strains of fanaticism, greed, and jealousy among the Crusaders threaten to shatter the truce. King Baldwin's vision of peace--a kingdom of heaven--is shared by a handful of knights, including Godfrey of Ibelin, who swear to uphold it with their lives and honor. As Godfrey passes his sword to his son, he also passes on that sacred oath: to protect the helpless, safeguard the peace, and work toward harmony between religions and cultures, so that a kingdom of heaven can flourish on earth. Balian takes the sword and steps into history."
-        },
-        {
-            "id": 29,
-            "title": "Schindler's List ",
-            "year": "1993",
-            "poster": "./images/shindler's_list.png",
-            "genre": "History",
-            "star": "0",
-            "about": "Oskar Schindler is a vain and greedy German businessman who becomes an unlikely humanitarian amid the barbaric German Nazi reign when he feels compelled to turn his factory into a refuge for Jews. Based on the true story of Oskar Schindler who managed to save about 1100 Jews from being gassed at the Auschwitz concentration camp, it is a testament to the good in all of us."
-        },
-        {
-            "id": 30,
-            "title": "Munich",
-            "year": "2005",
-            "poster": "./images/munich.jpg",
-            "genre": "History",
-            "star": "0",
-            "about": "After Black September's assassination of Israeli athletes at the Munich Olympics in 1972, Prime Minister Golda Meir okays a covert operation to hunt down and kill all involved. A team of five gathers in Switzerland led by Avner, a low-level Mossad techie whose father was a war hero and whose wife is pregnant. It's an expendable team, but relying on paid informants, they track and kill several in Europe and Lebanon. They must constantly look over their shoulders for the CIA, KGB, PLO, and their own sources. As the body count mounts -- with retribution following retribution -- so do questions, doubts, and sleepless nights. Loyalties blur. What does it mean to be a Jew?"
-        },
-        {
-            "id": 31,
-            "title": "Avatar",
-            "year": "2014",
-            "poster": "./images/avatar.jpg",
-            "genre": "Sci-fi",
-            "star": "0",
-            "about": "When his brother is killed in a robbery, paraplegic Marine Jake Sully decides to take his place in a mission on the distant world of Pandora. There he learns of greedy corporate figurehead Parker Selfridge's intentions of driving off the native humanoid Na'vi in order to mine for the precious material scattered throughout their rich woodland. In exchange for the spinal surgery that will fix his legs, Jake gathers knowledge, of the Indigenous Race and their Culture, for the cooperating military unit spearheaded by gung-ho Colonel Quaritch, while simultaneously attempting to infiltrate the Na'vi people with the use of an avatar identity. While Jake begins to bond with the native tribe and quickly falls in love with the beautiful alien Neytiri, the restless Colonel moves forward with his ruthless extermination tactics, forcing the soldier to take a stand - and fight back in an epic battle for the fate of Pandora."
-        },
-        {
-            "id": 32,
-            "title": "Prometheus",
-            "year": "2014",
-            "poster": "./images/prometheus.jpg",
-            "genre": "Sci-fi",
-            "star": "0",
-            "about": "Following a faint trail of clues, the accomplished archaeologist, Doctor Elizabeth Shaw, and her partner, Charlie Holloway, along with a seventeen-man crew, embark on an ambitious, deep-space scientific expedition. Aboard the revolutionary space-exploration starship, USCSS Prometheus, the team sets foot on the rocky terrain of the desolate exomoon, LV-223, in 2093, to investigate the existence of the superior extraterrestrial species known as the Engineers. But, there, inside a mysterious, complex structure of cavernous dark chambers and an intricate underground system of tunnels, more enigmas await. Now, a terrifying discovery threatens not only the outcome of the bold outer-space mission but also the very future of humankind. Is the world prepared for the answers to the fundamental questions of human existence?"
-        },
-        {
-            "id": 33,
-            "title": "What Happened to Monday",
-            "year": "2014",
-            "poster": "./images/7sisters.jpg",
-            "genre": "Sci-fi",
-            "star": "0",
-            "about": "In a not so distant future, where overpopulation and famine have forced governments to undertake a drastic One-Child Policy, seven identical sisters (all of them portrayed by Noomi Rapace) live a hide-and-seek existence pursued by the Child Allocation Bureau. The Bureau, directed by the fierce Nicolette Cayman (Glenn Close), enforces a strict family-planning agenda that the sisters outwit by taking turns assuming the identity of one person: Karen Settman. Taught by their grandfather (Willem Dafoe) who raised and named them - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday - each can go outside once a week as their common identity, but are only free to be themselves in the prison of their own apartment. That is until, one day, Monday does not come home."
-        },
-        {
-            "id": 34,
-            "title": "Dune",
-            "year": "2014",
-            "poster": "./images/dune.jpg",
-            "genre": "Sci-fi",
-            "star": "0",
-            "about": "A mythic and emotionally charged hero's journey, Dune tells the story of Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, who must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive."
-        },
-        {
-            "id": 35,
-            "title": "Ex Machina",
-            "year": "2014",
-            "poster": "./images/exmachina.jpg",
-            "genre": "Sci-fi",
-            "star": "0",
-            "about": "Caleb, a 26 year old programmer at the world's largest internet company, wins a competition to spend a week at a private mountain retreat belonging to Nathan, the reclusive CEO of the company. But when Caleb arrives at the remote location he finds that he will have to participate in a strange and fascinating experiment in which he must interact with the world's first true artificial intelligence, housed in the body of a beautiful robot girl."
-        },
-        {
-            "id": 36,
-            "title": "Stonehearst Asylum",
-            "year": "2014",
-            "poster": "./images/eliza graves.jpg",
-            "genre": "Thriller",
-            "star": "0",
-            "about": "A couple of days before 1899 Christmas, the Oxford new graduate Dr. Edward Newgate arrives at the Stonehearst Asylum to complete training for his specialty of asylum medicine. He is met by armed men who take him to Dr. Silas Lamb, who welcomes his help and takes him under his wing. Edward is shocked to see the methods that Dr. Lamb uses to run this asylum. He becomes infatuated with Eliza Graves, one of the patients who is a lady of status and does not seem to belong. One night, Edward overhears a knocking from the bowels of the facility and is shocked to find that everything is not as it seems in this place and that his uneasy feelings may be justified. What will Edward Choose?"
-        },
-        {
-            "id": 37,
-            "title": "Joker",
-            "year": "2019",
-            "poster": "./images/joker.jpg",
-            "genre": "Thriller",
-            "star": "0",
-            "about": "Arthur Fleck works as a clown and is an aspiring stand-up comic. He has mental health issues, part of which involves uncontrollable laughter. Times are tough and, due to his issues and occupation, Arthur has an even worse time than most. Over time these issues bear down on him, shaping his actions, making him ultimately take on the persona he is more known as...Joker."
-        },
-        {
-            "id": 38,
-            "title": "Shutter Island ",
-            "year": "2010",
-            "poster": "./images/shutter island.jpg",
-            "genre": "Thriller",
-            "star": "0",
-            "about": "In 1954, up-and-coming U.S. marshal Teddy Daniels is assigned to investigate the disappearance of a patient from Boston's Shutter Island Ashecliffe Hospital. He's been pushing for an assignment on the island for personal reasons, but before long he thinks he's been brought there as part of a twisted plot by hospital doctors whose radical treatments range from unethical to illegal to downright sinister. Teddy's shrewd investigating skills soon provide a promising lead, but the hospital refuses him access to records he suspects would break the case wide open. As a hurricane cuts off communication with the mainland, more dangerous criminals escape in the confusion, and the puzzling, improbable clues multiply, Teddy begins to doubt everything - his memory, his partner, even his own sanity."
-        },
-        {
-            "id": 39,
-            "title": "Bird Box",
-            "year": "2018",
-            "poster": "./images/bird box.jpg",
-            "genre": "Thriller",
-            "star": "0",
-            "about": "In the wake of an unknown global terror, a mother must find the strength to flee with her children down a treacherous river in search of safety. Due to unseen deadly forces, the perilous journey must be made blindly. Directed by Emmy winner Susanne Bier, Bird Box is a thriller starring Academy Award winner Sandra Bullock, John Malkovich, Sarah Paulson, and Trevante Rhodes."
-        },
-        {
-            "id": 40,
-            "title": "Split",
-            "year": "2016",
-            "poster": "./images/split.jpg",
-            "genre": "Thriller",
-            "star": "0",
-            "about": "Though Kevin (James McAvoy) has evidenced 23 personalities to his trusted psychiatrist, Dr. Fletcher (Betty Buckley), there remains one still submerged who is set to materialize and dominate all of the others. Compelled to abduct three teenage girls led by the willful, observant Casey, Kevin reaches a war for survival among all of those contained within him -- as well as everyone around him -- as the walls between his compartments shatter."
-        }
-    ]
+  "genres": [
+    "All",
+    "Action",
+    "Cartoon",
+    "Comedy",
+    "Crime",
+    "Drama",
+    "History",
+    "Sci-fi",
+    "Thriller"
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Dark Knight",
+      "year": "2008",
+      "poster": "./images/dark knight.jpg",
+      "genre": "Action",
+      "star": 12,
+      "about": "Set within a year after the events of Batman Begins (2005), Batman, Lieutenant James Gordon, and new District Attorney Harvey Dent successfully begin to round up the criminals that plague Gotham City, until a mysterious and sadistic criminal mastermind known only as The Joker appears in Gotham, creating a new wave of chaos. Batman's struggle against The Joker becomes deeply personal, forcing him to confront everything he believes and improve his technology to stop him. A love triangle develops between Bruce Wayne, Dent, and Rachel Dawes."
+    },
+    {
+      "id": 2,
+      "title": "Kingsman: The Secret Service",
+      "year": "2014",
+      "poster": "./images/kingsman.jpg",
+      "genre": "Action",
+      "star": 13,
+      "about": "A young man named Gary Eggsy Unwin (Taron Egerton), whose father died when he was a young boy, is dealing with living with the creep his mother is with now, who mistreats her and him. He goes out and does something to one of the creep's friends. He gets arrested and he calls the number a man gave him around the time his father died, to call if he needs help. A man named Harry Hart (Colin Firth) approaches him and tells him he's the one who helped him. He tells him that he knew his father. When the man Eggsy slighted wants some payback, Harry takes care of him and his companions single-handedly. Harry then tells Eggsy that he's part of a secret organization called The Kingsman, and his father was also part of it. He died trying to make the world safe. Harry offers Eggsy the opportunity to be a Kingsman, and he takes it. He undergoes a gruelling training course. Harry is looking into the demise of another Kingsman, and the trail leads him to tech billionaire Valentine, a.k.a. V (Samuel L. Jackson), who is also curious about the group following him, the Kingsman."
+    },
+    {
+      "id": 3,
+      "title": "Bullet Train",
+      "year": "2022",
+      "poster": "./images/bullettrain.jpg",
+      "genre": "Action",
+      "star": 3,
+      "about": "Unlucky assassin Ladybug (Brad Pitt) is determined to do his job peacefully after one too many gigs has gone off the rails. Fate has other plans, however: Ladybug's latest mission puts him on a collision course with lethal adversaries from around the globe--all with connected, yet conflicting, objectives--on the world's fastest train. The end of the line is just the beginning in this non-stop thrill-ride through modern-day Japan."
+    },
+    {
+      "id": 4,
+      "title": "The Batman",
+      "year": "2022",
+      "poster": "./images/batman.jpg",
+      "genre": "Action",
+      "star": 8,
+      "about": "On Halloween, Gotham City mayor Don Mitchell Jr. is murdered by a serial killer calling himself the Riddler. Billionaire Bruce Wayne, who has operated for two years as the vigilante Batman, investigates alongside the Gotham City Police Department (GCPD). Lieutenant James Gordon discovers that the Riddler left a message for Batman, but commissioner Pete Savage berates him for allowing a vigilante to enter the crime scene and forces Batman to leave. The Riddler kills Savage and leaves another message for Batman."
+    },
+    {
+      "id": 5,
+      "title": "Skyfall",
+      "year": "2012",
+      "poster": "./images/skyfall.jpg",
+      "genre": "Action",
+      "star": 6,
+      "about": "When James Bond's (Daniel Craig's) latest assignment goes gravely wrong and Agents around the world are exposed, MI6 is attacked, forcing (M Dame Judi Dench) to relocate the agency. These events cause her authority and position to be challenged by Gareth Mallory (Ralph Fiennes), the new Chairman of the Intelligence and Security Committee. With MI6 now compromised from both inside and out, M is left with one ally she can trust: Bond. 007 takes to the shadows, aided only by field agent, Miss Eve Moneypenny (Naomie Harris), following a trail to the mysterious Tiago Rodriguez, a.k.a. Raoul Silva (Javier Bardem), whose lethal and hidden motives have yet to reveal themselves."
+    },
+    {
+      "id": 6,
+      "title": "Trolls",
+      "year": "2016",
+      "poster": "./images/trolls.jpg",
+      "genre": "Cartoon",
+      "star": 4,
+      "about": "From the creators of Shrek comes the most smart, funny, irreverent animated comedy of the year, DreamWorks' Trolls. This holiday season, enter a colorful, wondrous world populated by hilariously unforgettable characters and discover the story of the overly optimistic Trolls, with a constant song on their lips, and the comically pessimistic Bergens, who are only happy when they have trolls in their stomach. Featuring original music from Justin Timberlake, and soon-to-be classic mash-ups of songs from other popular artists, the film stars the voice talents of Anna Kendrick, Justin Timberlake, Russell Brand, James Corden, Kunal Nayyar, Ron Funches, Icona Pop, Gwen Stefani, and many more. DreamWorks' TROLLS is a fresh, broad comedy filled with music, heart and hair-raising adventures. In November of 2016, nothing can prepare you for our new Troll world."
+    },
+    {
+      "id": 7,
+      "title": "Sing ",
+      "year": "2016",
+      "poster": "./images/sing.jpg",
+      "genre": "Cartoon",
+      "star": 0,
+      "about": "In a world of anthropomorphic animals, koala Buster Moon owns a theater, having been interested in show business since his father took him to his first music show as a child. Following financial problems brought up by the bank representative Judith, he tells his wealthy friend Eddie that he will host a singing competition with a prize of $1,000. But Buster's assistant, Miss Crawly, accidentally appends two extra zeroes, and the promotional fliers showing $100,000 are blown out of Buster's office into the city streets."
+    },
+    {
+      "id": 8,
+      "title": "Vivo ",
+      "year": "2021",
+      "poster": "./images/vivo.jpg",
+      "genre": "Cartoon",
+      "star": "0",
+      "about": "Vivo follows a one-of-kind kinkajou (aka a rainforest honey bear) who spends his days playing music to the crowds in a lively square with his beloved owner Andrés. Though they don't speak the same language, Vivo and Andrés are the perfect duo through their common love of music. But when tragedy strikes shortly after Andrés receives a letter from the famous Marta Sandoval, inviting her old partner to her farewell concert with the hope of reconnecting, it's up to Vivo to deliver a message that Andrés never could: A love letter to Marta, written long ago, in the form of a song. Yet in order to get to Marta, who lives a world away, Vivo needs help from Gabi, an energetic tween who bounces to the beat of her own offbeat drum, to fulfill his owner's wishes."
+    },
+    {
+      "id": 9,
+      "title": "Brave",
+      "year": "2012",
+      "poster": "./images/brave.jpg",
+      "genre": "Cartoon",
+      "star": 9,
+      "about": "Set in Scotland in a rugged and mythical time, this movie features Princess Merida (Kelly Macdonald), an aspiring archer and impetuous daughter of Queen Elinor (Dame Emma Thompson). Merida makes a reckless choice that unleashes unintended peril and forces her to spring into action to set things right."
+    },
+    {
+      "id": 10,
+      "title": "Tangled",
+      "year": "2010",
+      "poster": "./images/tangled.jpg",
+      "genre": "Cartoon",
+      "star": 0,
+      "about": "After receiving the healing powers from a magical flower, the baby Princess Rapunzel is kidnapped from the palace in the middle of the night by Mother Gothel. Mother Gothel knows that the flower's magical powers are now growing within the golden hair of Rapunzel, and to stay young, she must lock Rapunzel in her hidden tower. Rapunzel is now a teenager and her hair has grown to a length of 70-feet. The beautiful Rapunzel has been in the tower her entire life, and she is curious of the outside world. One day, the bandit Flynn Ryder scales the tower and is taken captive by Rapunzel. Rapunzel strikes a deal with the charming thief to act as her guide to travel to the place where the floating lights come from that she has seen every year on her birthday. Rapunzel is about to have the most exciting and magnificent journey of her life."
+    },
+    {
+      "id": 11,
+      "title": "Hangover",
+      "year": "2009",
+      "poster": "./images/hangover.jpg",
+      "genre": "Comedy",
+      "star": 0,
+      "about": "Angelenos Doug Billings and Tracy Garner are about to get married. Two days before the wedding, the four men in the wedding party - Doug, Doug's two best buddies Phil Wenneck and Stu Price, and Tracy's brother Alan Garner - hop into Tracy's father's beloved Mercedes convertible for a 24-hour stag party to Las Vegas. Phil, a married high school teacher, has the same maturity level as his students when he's with his pals. Stu, a dentist, is worried about everything, especially what his controlling girlfriend Melissa thinks. Because she disapproves of traditional male bonding rituals, Stu has to lie to her about the stag, he telling her that they are going on a wine tasting tour in the Napa Valley. Regardless, he intends on eventually marrying her, against the advice and wishes of his friends. And Alan seems to be unaware of what are considered the social graces of the western world."
+    },
+    {
+      "id": 12,
+      "title": "Vacation",
+      "year": "2015",
+      "poster": "./images/vacation.jpg",
+      "genre": "Comedy",
+      "star": "0",
+      "about": "Following in the footsteps of his father, Clark Griswold, the man with a vision in National Lampoon's Vacation (1983), his son, too, the hard-working family man, Rusty Griswold, wants to have some quality time with his wife, Debbie, and their two sons, Kevin and James. With the idea of revisiting the place of his vivid childhood memories, the exciting Walley World, keep coming to mind, Rusty decides to surprise his family with his proposal for an unforgettable trip across the country in their rented Albanian SUV. However, as the Griswolds hit the road for some serious family-bonding, this is easier said than done, and, disaster after disaster, Rusty's romantic intentions seem to go down the drain. Can some minor mishaps thwart Rusty's plans for creating the perfect family vacation?"
+    },
+    {
+      "id": 13,
+      "title": "We're Miller's",
+      "year": "2013",
+      "poster": "./images/we are millers.jpg",
+      "genre": "Comedy",
+      "star": "0",
+      "about": "After being robbed of a week's take, small-time pot dealer David is forced by his boss to go to Mexico to pick up a load of marijuana. In order to improve his odds of making it past the border, David asks the broke stripper Rose and two local teenagers to join him and pretend they're on a family holiday."
+    },
+    {
+      "id": 14,
+      "title": "Murder Mystery",
+      "year": "2019",
+      "poster": "./images/murder mystery .jpg",
+      "genre": "Comedy",
+      "star": "0",
+      "about": "When an NYC cop (Adam Sandler) finally takes his wife (Jennifer Aniston) on a long promised European trip, a chance meeting on the flight gets them invited to an intimate family gathering on the Super Yacht of elderly billionaire Malcolm Quince. When Quince is murdered, they become the prime suspects in a modern day whodunit."
+    },
+    {
+      "id": 15,
+      "title": "The Other Woman",
+      "year": "2014",
+      "poster": "./images/the_other_woman.jpg",
+      "genre": "Comedy",
+      "star": "0",
+      "about": "After discovering that her boyfriend is married, Carly Whitten tries to get her ruined life back on track. But when she accidentally meets the wife he's been cheating on, she realizes that they have much in common, and her sworn enemy becomes her greatest friend. When yet another affair is discovered, all three women team up to plot mutual revenge on their cheating, lying, three-timing SOB."
+    },
+    {
+      "id": 16,
+      "title": "Bronx Tale",
+      "year": "2014",
+      "poster": "./images/bronx tale.jpg",
+      "genre": "Crime",
+      "star": "0",
+      "about": "The Bronx, New York, 1960. 9-year-old Calogero grows up admiring and fascinated by the local mob boss, Sonny. Calogero's father, Lorenzo, wants to have nothing to do with the mob and does his best to keep his son away from Sonny and mob business. However, it may prove a losing battle."
+    },
+    {
+      "id": 17,
+      "title": "Casino",
+      "year": "2014",
+      "poster": "./images/casino.jpg",
+      "genre": "Crime",
+      "star": 6,
+      "about": "This Martin Scorsese film depicts the Janus-like quality of Las Vegas--it has a glittering, glamorous face, as well as a brutal, cruel one. Ace Rothstein and Nicky Santoro, mobsters who move to Las Vegas to make their mark, live and work in this paradoxical world. Seen through their eyes, each as a foil to the other, the details of mob involvement in the casinos of the 1970s and '80s are revealed. Ace is the smooth operator of the Tangiers casino, while Nicky is his boyhood friend and tough strongman, robbing and shaking down the locals. However, they each have a tragic flaw--Ace falls in love with a hustler, Ginger, and Nicky falls into an ever-deepening spiral of drugs and violence."
+    },
+    {
+      "id": 18,
+      "title": "GoodFellas",
+      "year": "2014",
+      "poster": "./images/goodfellas.jpg",
+      "genre": "Crime",
+      "star": "0",
+      "about": "Henry Hill might be a small time gangster, who may have taken part in a robbery with Jimmy Conway and Tommy De Vito, two other gangsters who might have set their sights a bit higher. His two partners could kill off everyone else involved in the robbery, and slowly start to think about climbing up through the hierarchy of the Mob. Henry, however, might be badly affected by his partners' success, but will he consider stooping low enough to bring about the downfall of Jimmy and Tommy?"
+    },
+    {
+      "id": 19,
+      "title": "Lord of War ",
+      "year": "2005",
+      "poster": "./images/lordofwar.jpg",
+      "genre": "Crime",
+      "star": "0",
+      "about": "This movie charts the rise and fall of Yuri Orlov, from his early days in the early 1980s in Little Odessa, selling guns to mobsters in his local neighborhood, through to his ascension through the decade of excess and indulgence into the early 1990s, where he forms a business partnership with an African warlord and his psychotic son. This movie also charts his relationship through the years with his younger brother, his marriage to a famous model, his relentless pursuit by a determined INTERPOL Agent and his inner demons that sway between his drive for success and the immorality of what he does."
+    },
+    {
+      "id": 20,
+      "title": "Legend",
+      "year": "2015",
+      "poster": "./images/legend.jpg",
+      "genre": "Crime",
+      "star": "0",
+      "about": "The true story of London's most notorious gangsters, twins Reggie and Ronnie Kray. As the brothers rise through the criminal underworld, Ronnie advances the family business with violence and intimidation while Reggie struggles to go legitimate for local girl Frances Shea. In and out of prison, Ronnie's unpredictable tendencies and the slow disintegration of Reggie's marriage threaten to bring the brothers' empire tumbling to the ground."
+    },
+    {
+      "id": 21,
+      "title": "Beautiful Mind",
+      "year": "2014",
+      "poster": "./images/beautiful mind.jpg",
+      "genre": "Drama",
+      "star": "0",
+      "about": "From the heights of notoriety to the depths of depravity, John Forbes Nash, Jr. experienced it all. A mathematical genius, he made an astonishing discovery early in his career and stood on the brink of international acclaim. But the handsome and arrogant Nash soon found himself on a painful and harrowing journey of self-discovery. After many years of struggle, he eventually triumphed over his tragedy, and finally - late in life - received the Nobel Prize."
+    },
+    {
+      "id": 22,
+      "title": "Leon",
+      "year": "1994",
+      "poster": "./images/leon.jpg",
+      "genre": "Drama",
+      "star": "0",
+      "about": "After her father, step-mother, step-sister and little brother are killed by her father's employers, the 12-year-old daughter of an abject drug dealer manages to take refuge in the apartment of a professional hitman who at her request teaches her the methods of his job so she can take her revenge on the corrupt DEA agent who ruined her life by killing her beloved brother."
+    },
+    {
+      "id": 23,
+      "title": "The Stoning of Soraya M",
+      "year": "2008",
+      "poster": "./images/stoning_of_soraya_m.jpg",
+      "genre": "Drama",
+      "star": "0",
+      "about": "After the fall of the last Shah and the end of the monarchy, Iran is on the brink of a new era. While rushing to the borders, French journalist Freidoune Sahebjam is approached by a woman covered in a black chador, who desperately asks for a meeting with him to disclose the tragic events that led to the cruel, inhumane punishment of her niece Soraya the night before. Reluctant but intrigued, Freidoune begins to record the unspeakable story of the mother of four who was wrongfully accused of adultery in a land where women have no say. Little by little--between malicious gossip and devious plots, false accusations and the machinations of a whole village--Soraya's abusive husband will finally force a unanimous verdict against a woman who defiled Islam and the entire village in the eyes of her family. However, will yesterday's tragic events, ever see the light of day?"
+    },
+    {
+      "id": 24,
+      "title": "The Good Nurse",
+      "year": "2022",
+      "poster": "./images/good_nurse.jpg",
+      "genre": "Drama",
+      "star": "0",
+      "about": "Amy, a compassionate nurse and single mother struggling with a life-threatening heart condition, is stretched to her physical and emotional limits by the hard and demanding night shifts at the ICU. But help arrives when Charlie, a thoughtful and empathetic fellow nurse, starts at her unit. While sharing long nights at the hospital, the two develop a strong and devoted friendship, and for the first time in years, Amy truly has faith in her and her young daughters' future. But after a series of mysterious patient deaths sets off an investigation that points to Charlie as the prime suspect, Amy is forced to risk her life and the safety of her children to uncover the truth."
+    },
+    {
+      "id": 25,
+      "title": "The Danish Girl",
+      "year": "2015",
+      "poster": "./images/danish_girl.jpg",
+      "genre": "Drama",
+      "star": "0",
+      "about": "Copenhagen, Denmark, 1926. Einar Wegener (played by Eddie Redmayne) and his wife Gerda (Alicia Vikander) are a happily married couple. Both are artists, Einar preferring landscapes and she portraits. One day Einar poses for a portrait of Gerda's while wearing a dress. This is initially done as a lark, as is the later attendance at a party dressed as a woman. However, Einar soon discovers that she is in fact a woman and over time prefers being Lili. At first she and Gerda try to have her situation cured but this leads nowhere (other than to many doctors trying to have Lili locked up as a pervert and/or lunatic). Her voyage of self-discovery will ultimately lead to her undergoing the first ever sex-change operation."
+    },
+    {
+      "id": 26,
+      "title": "Apocalypto",
+      "year": "2006",
+      "poster": "./images/apocalypto.jpg",
+      "genre": "History",
+      "star": "0",
+      "about": "In the Maya civilization, a peaceful tribe is brutally attacked by warriors seeking slaves and human beings for sacrifice for their gods. Jaguar Paw hides his pregnant wife and his son in a deep hole nearby their tribe and is captured while fighting with his people. An eclipse spares his life from the sacrifice and later he has to fight to survive and save his beloved family."
+    },
+    {
+      "id": 27,
+      "title": "Braveheart",
+      "year": "1995",
+      "poster": "./images/braveheart.jpg",
+      "genre": "History",
+      "star": "0",
+      "about": "William Wallace is a Scottish rebel who leads an uprising against the cruel English ruler Edward the Longshanks, who wishes to inherit the crown of Scotland for himself. When he was a young boy, William Wallace's father and brother, along with many others, lost their lives trying to free Scotland. Once he loses another of his loved ones, William Wallace begins his long quest to make Scotland free once and for all, along with the assistance of Robert the Bruce."
+    },
+    {
+      "id": 28,
+      "title": "Kingdom Of Heaven",
+      "year": "2005",
+      "poster": "./images/kingdom of heaven.jpg",
+      "genre": "History",
+      "star": "0",
+      "about": "It is the time of the Crusades during the Middle Ages -- the world-shaping 200-year collision between Europe and the East. A blacksmith named Balian has lost his family and nearly his faith. The religious wars raging in the far-off Holy Land seem remote to him, yet he is pulled into that immense drama. Amid the pageantry and intrigues of medieval Jerusalem, he falls in love, grows into a leader, and ultimately uses all his courage and skill to defend the city against staggering odds. Destiny comes seeking Balian in the form of a great knight, Godfrey of Ibelin, a Crusader briefly home to France from fighting in the East. Revealing himself as Balian's father, Godfrey shows him the true meaning of knighthood and takes him on a journey across continents to the fabled Holy City. In Jerusalem at that moment--between the Second and Third Crusades--a fragile peace prevails, through the efforts of its enlightened Christian king, Baldwin IV, aided by his advisor Tiberias, and the military restraint of the legendary Muslim leader Saladin Ayubi. But Baldwin's days are numbered, and strains of fanaticism, greed, and jealousy among the Crusaders threaten to shatter the truce. King Baldwin's vision of peace--a kingdom of heaven--is shared by a handful of knights, including Godfrey of Ibelin, who swear to uphold it with their lives and honor. As Godfrey passes his sword to his son, he also passes on that sacred oath: to protect the helpless, safeguard the peace, and work toward harmony between religions and cultures, so that a kingdom of heaven can flourish on earth. Balian takes the sword and steps into history."
+    },
+    {
+      "id": 29,
+      "title": "Schindler's List ",
+      "year": "1993",
+      "poster": "./images/shindler's_list.png",
+      "genre": "History",
+      "star": "0",
+      "about": "Oskar Schindler is a vain and greedy German businessman who becomes an unlikely humanitarian amid the barbaric German Nazi reign when he feels compelled to turn his factory into a refuge for Jews. Based on the true story of Oskar Schindler who managed to save about 1100 Jews from being gassed at the Auschwitz concentration camp, it is a testament to the good in all of us."
+    },
+    {
+      "id": 30,
+      "title": "Munich",
+      "year": "2005",
+      "poster": "./images/munich.jpg",
+      "genre": "History",
+      "star": "0",
+      "about": "After Black September's assassination of Israeli athletes at the Munich Olympics in 1972, Prime Minister Golda Meir okays a covert operation to hunt down and kill all involved. A team of five gathers in Switzerland led by Avner, a low-level Mossad techie whose father was a war hero and whose wife is pregnant. It's an expendable team, but relying on paid informants, they track and kill several in Europe and Lebanon. They must constantly look over their shoulders for the CIA, KGB, PLO, and their own sources. As the body count mounts -- with retribution following retribution -- so do questions, doubts, and sleepless nights. Loyalties blur. What does it mean to be a Jew?"
+    },
+    {
+      "id": 31,
+      "title": "Avatar",
+      "year": "2014",
+      "poster": "./images/avatar.jpg",
+      "genre": "Sci-fi",
+      "star": "0",
+      "about": "When his brother is killed in a robbery, paraplegic Marine Jake Sully decides to take his place in a mission on the distant world of Pandora. There he learns of greedy corporate figurehead Parker Selfridge's intentions of driving off the native humanoid Na'vi in order to mine for the precious material scattered throughout their rich woodland. In exchange for the spinal surgery that will fix his legs, Jake gathers knowledge, of the Indigenous Race and their Culture, for the cooperating military unit spearheaded by gung-ho Colonel Quaritch, while simultaneously attempting to infiltrate the Na'vi people with the use of an avatar identity. While Jake begins to bond with the native tribe and quickly falls in love with the beautiful alien Neytiri, the restless Colonel moves forward with his ruthless extermination tactics, forcing the soldier to take a stand - and fight back in an epic battle for the fate of Pandora."
+    },
+    {
+      "id": 32,
+      "title": "Prometheus",
+      "year": "2014",
+      "poster": "./images/prometheus.jpg",
+      "genre": "Sci-fi",
+      "star": "0",
+      "about": "Following a faint trail of clues, the accomplished archaeologist, Doctor Elizabeth Shaw, and her partner, Charlie Holloway, along with a seventeen-man crew, embark on an ambitious, deep-space scientific expedition. Aboard the revolutionary space-exploration starship, USCSS Prometheus, the team sets foot on the rocky terrain of the desolate exomoon, LV-223, in 2093, to investigate the existence of the superior extraterrestrial species known as the Engineers. But, there, inside a mysterious, complex structure of cavernous dark chambers and an intricate underground system of tunnels, more enigmas await. Now, a terrifying discovery threatens not only the outcome of the bold outer-space mission but also the very future of humankind. Is the world prepared for the answers to the fundamental questions of human existence?"
+    },
+    {
+      "id": 33,
+      "title": "What Happened to Monday",
+      "year": "2014",
+      "poster": "./images/7sisters.jpg",
+      "genre": "Sci-fi",
+      "star": "0",
+      "about": "In a not so distant future, where overpopulation and famine have forced governments to undertake a drastic One-Child Policy, seven identical sisters (all of them portrayed by Noomi Rapace) live a hide-and-seek existence pursued by the Child Allocation Bureau. The Bureau, directed by the fierce Nicolette Cayman (Glenn Close), enforces a strict family-planning agenda that the sisters outwit by taking turns assuming the identity of one person: Karen Settman. Taught by their grandfather (Willem Dafoe) who raised and named them - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday - each can go outside once a week as their common identity, but are only free to be themselves in the prison of their own apartment. That is until, one day, Monday does not come home."
+    },
+    {
+      "id": 34,
+      "title": "Dune",
+      "year": "2014",
+      "poster": "./images/dune.jpg",
+      "genre": "Sci-fi",
+      "star": "0",
+      "about": "A mythic and emotionally charged hero's journey, Dune tells the story of Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, who must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive."
+    },
+    {
+      "id": 35,
+      "title": "Ex Machina",
+      "year": "2014",
+      "poster": "./images/exmachina.jpg",
+      "genre": "Sci-fi",
+      "star": "0",
+      "about": "Caleb, a 26 year old programmer at the world's largest internet company, wins a competition to spend a week at a private mountain retreat belonging to Nathan, the reclusive CEO of the company. But when Caleb arrives at the remote location he finds that he will have to participate in a strange and fascinating experiment in which he must interact with the world's first true artificial intelligence, housed in the body of a beautiful robot girl."
+    },
+    {
+      "id": 36,
+      "title": "Stonehearst Asylum",
+      "year": "2014",
+      "poster": "./images/eliza graves.jpg",
+      "genre": "Thriller",
+      "star": "0",
+      "about": "A couple of days before 1899 Christmas, the Oxford new graduate Dr. Edward Newgate arrives at the Stonehearst Asylum to complete training for his specialty of asylum medicine. He is met by armed men who take him to Dr. Silas Lamb, who welcomes his help and takes him under his wing. Edward is shocked to see the methods that Dr. Lamb uses to run this asylum. He becomes infatuated with Eliza Graves, one of the patients who is a lady of status and does not seem to belong. One night, Edward overhears a knocking from the bowels of the facility and is shocked to find that everything is not as it seems in this place and that his uneasy feelings may be justified. What will Edward Choose?"
+    },
+    {
+      "id": 37,
+      "title": "Joker",
+      "year": "2019",
+      "poster": "./images/joker.jpg",
+      "genre": "Thriller",
+      "star": "0",
+      "about": "Arthur Fleck works as a clown and is an aspiring stand-up comic. He has mental health issues, part of which involves uncontrollable laughter. Times are tough and, due to his issues and occupation, Arthur has an even worse time than most. Over time these issues bear down on him, shaping his actions, making him ultimately take on the persona he is more known as...Joker."
+    },
+    {
+      "id": 38,
+      "title": "Shutter Island ",
+      "year": "2010",
+      "poster": "./images/shutter island.jpg",
+      "genre": "Thriller",
+      "star": "0",
+      "about": "In 1954, up-and-coming U.S. marshal Teddy Daniels is assigned to investigate the disappearance of a patient from Boston's Shutter Island Ashecliffe Hospital. He's been pushing for an assignment on the island for personal reasons, but before long he thinks he's been brought there as part of a twisted plot by hospital doctors whose radical treatments range from unethical to illegal to downright sinister. Teddy's shrewd investigating skills soon provide a promising lead, but the hospital refuses him access to records he suspects would break the case wide open. As a hurricane cuts off communication with the mainland, more dangerous criminals escape in the confusion, and the puzzling, improbable clues multiply, Teddy begins to doubt everything - his memory, his partner, even his own sanity."
+    },
+    {
+      "id": 39,
+      "title": "Bird Box",
+      "year": "2018",
+      "poster": "./images/bird box.jpg",
+      "genre": "Thriller",
+      "star": "0",
+      "about": "In the wake of an unknown global terror, a mother must find the strength to flee with her children down a treacherous river in search of safety. Due to unseen deadly forces, the perilous journey must be made blindly. Directed by Emmy winner Susanne Bier, Bird Box is a thriller starring Academy Award winner Sandra Bullock, John Malkovich, Sarah Paulson, and Trevante Rhodes."
+    },
+    {
+      "id": 40,
+      "title": "Split",
+      "year": "2016",
+      "poster": "./images/split.jpg",
+      "genre": "Thriller",
+      "star": "0",
+      "about": "Though Kevin (James McAvoy) has evidenced 23 personalities to his trusted psychiatrist, Dr. Fletcher (Betty Buckley), there remains one still submerged who is set to materialize and dominate all of the others. Compelled to abduct three teenage girls led by the willful, observant Casey, Kevin reaches a war for survival among all of those contained within him -- as well as everyone around him -- as the walls between his compartments shatter."
+    },
+    {
+      "title": "ghj",
+      "year": "hgj",
+      "poster": "hgj",
+      "genre": "hgj",
+      "about": "hgj",
+      "id": 41
+    },
+    {
+      "title": "ghj",
+      "year": "hgj",
+      "poster": "hgj",
+      "genre": "hgj",
+      "about": "hgj",
+      "id": 42
+    },
+    {
+      "title": "ghj",
+      "year": "hgj",
+      "poster": "hgj",
+      "genre": "hgj",
+      "about": "hgj",
+      "id": 43
+    }
+  ]
 }

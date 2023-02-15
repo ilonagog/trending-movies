@@ -11,7 +11,7 @@ const Home = () => {
     })
 
     return (
-        <div>
+        <div className='videoContainer'>
             <div style={{ margin: "1rem 0" }}>
                 <a className="button" href="/movies">
                     View All Movies
@@ -19,8 +19,10 @@ const Home = () => {
                 </a>
                 <br></br>
                 <h3 style={{ fontSize: "3rem" }}>Upcomming Movie Trailers : </h3>
-                <br></br>
-                <div >
+            </div>
+            <br></br>
+            <div>
+                <div className='videos' >
                     {handleVideos}
                 </div>
             </div>

@@ -1,24 +1,48 @@
 import { useState } from 'react'
 
-const NewMovieForm = () => {
+function NewMovieForm({ addNewMovie }) {
     const [newTitle, setNewTitle] = useState("")
     const [newYear, setNewYear] = useState("")
     const [newPoster, setNewPoster] = useState("")
     const [newGenre, setNewGenre] = useState("")
     const [newAbout, setNewAbout] = useState("")
+
+
+    const resetForm = () => {
+        setNewTitle("")
+        setNewYear("")
+        setNewPoster("")
+        setNewGenre("")
+        setNewAbout("")
+    }
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        // const newMovie = {
-        //     title: newTitle,
-        //     year: newYear,
-        //     poster: newPoster,
-        //     genre: newGenre,
-        //     about: newAbout
+        const newMovie = {
+            title: newTitle,
+            year: newYear,
+            poster: newPoster,
+            genre: newGenre,
+            about: newAbout
+        }
 
-        // }
         // console.log(newMovie)
+        fetch(" http://localhost:3000/movies", {
+            method: "POST",
+            headers: {
+                "Content-type": "application/json",
+            },
+            body: JSON.stringify(newMovie)
+        })
+            .then((r) => r.json())
+            .then((movie) => {
+                addNewMovie(movie);
+                resetForm()
+            })
     }
+
+
+
 
     return (
         <section>

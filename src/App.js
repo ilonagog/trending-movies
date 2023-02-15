@@ -11,6 +11,8 @@ import NewMovieForm from './components/NewMovieForm';
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
   const [genres, setGenres] = useState([])
+  const [selectedGenre, setSelectedGenre] = useState("All")
+
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -46,6 +48,7 @@ function App() {
     const updatedArray = movies.map((movie) => movie.id === updatedMovie ? updatedMovie : movie)
     setMovies(updatedArray)
   }
+  const moviesFilteredByGenres = movies.filter(movie => movie.genre === selectedGenre || selectedGenre === "All")
 
 
 
@@ -55,8 +58,8 @@ function App() {
       <NavBar isDarkMode={isDarkMode} handleDarkMode={handleDarkMode} />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/movies" element={<MovieList movies={movies} onDeleteMovies={onDeleteMovies} onUpdateMovie={handleUpdateMovie} />} />
-        <Route path="/genres" element={<Genres genres={genres} />} />
+        <Route path="/movies" element={<MovieList movies={moviesFilteredByGenres} onDeleteMovies={onDeleteMovies} onUpdateMovie={handleUpdateMovie} />} />
+        <Route path="/genres" element={<Genres genres={genres} selectedGenre={selectedGenre} setSelectedGenre={setSelectedGenre} />} />
         <Route path="/movie/new" element={<NewMovieForm addNewMovie={addNewMovie} />} />
       </Routes>
     </div>

@@ -19,30 +19,28 @@ function MoviePage({ movie, onDeleteMovie }) {
 
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-
-            <div> <li className='card'>
-                <figure className="image">
-                    <img src={poster} alt={poster} />
-                </figure>
-                <section className="details">
-                    <h3>{title}</h3>
-                    <p>{year}</p>
-                    <p>{genre}</p>
-                </section>
-                <footer className='footer'>
-                    <button className='star' >⭐{star}</button>
-                    <button className="info" onClick={handleFlip}>Info</button>
-                    <button className="delete" onClick={handleDeleteClick} >🚮</button>
-                </footer>
-            </li></div>
-
-
+            <div className='container'>
+                <li className='card'>
+                    <figure className="image">
+                        <img src={poster} alt={poster} />
+                    </figure>
+                    <section className="details">
+                        <h3>{title}</h3>
+                        <p>{year}</p>
+                        <p>{genre}</p>
+                    </section>
+                    <footer className='footer'>
+                        <button className='star' >⭐{star}</button>
+                        <button className="info" onClick={handleFlip}>Info</button>
+                        <button className="delete" onClick={handleDeleteClick} >🚮</button>
+                    </footer>
+                </li>
+            </div>
             <div>
                 <button onClick={handleFlip}>Back</button>
                 <br />
                 <p>{about}</p>
             </div>
-
         </ReactCardFlip>
     )
 }

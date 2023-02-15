@@ -1,9 +1,27 @@
 import React from 'react'
 
-function Genres({ genres }) {
+function Genres({ genres, selectedGenre, setSelectedGenre }) {
+    const filteredButtons = genres.map((genre) => (
+
+
+        <button
+            key={genre}
+            onClick={(e) => setSelectedGenre(genre)}
+            className={genre === selectedGenre ? "selected" : null}>
+            {genre}
+        </button>
+
+    ));
     return (
         <div>
-            <h1>This is test</h1>
+            <section >
+                <h2>Genres</h2>
+                <div className="filter" >
+
+                    {filteredButtons}
+
+                </div>
+            </section>
 
         </div>
     )
