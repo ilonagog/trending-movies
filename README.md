@@ -14,3 +14,7 @@ Installation Instructions
 Resources used for this project:
 https://www.imdb.com
 https://www.youtube.com/watch?v=x4bom6Udk_4&t=68s
+https://tailwindcss.com/docs/guides/create-react-app
+https://www.npmjs.com/package/react-icons
+
+
