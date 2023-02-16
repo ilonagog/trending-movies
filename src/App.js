@@ -7,17 +7,13 @@ import NavBar from './components/NavBar';
 import MovieList from './components/MovieList';
 import Genres from './components/Genres';
 import NewMovieForm from './components/NewMovieForm';
-import TrailerSlide from './components/TrailerSlide';
+import PostersSlide from './components/PostersSlide';
 
 function App() {
   const [selectedGenre, setSelectedGenre] = useState("All")
   const [genres, setGenres] = useState([])
   const [movies, setMovies] = useState([]);
   const [isDarkMode, setIsDarkMode] = useState(true);
-  // console.log(genres)
-  //console.log(movies)
-
-
 
   useEffect(() => {
     fetch(" http://localhost:3000/movies")
@@ -30,8 +26,6 @@ function App() {
       .then(resp => resp.json())
       .then(data => setGenres(data))
   }, [])
-  //console.log(genres)
-
 
   const handleDarkMode = () => {
     setIsDarkMode((isDarkMode) => !isDarkMode);
@@ -41,7 +35,6 @@ function App() {
     setMovies((movie) => [...movie, newMovie])
   }
   const onDeleteMovie = (id) => {
-    // console.log(id)
     setMovies(prevMovies => {
       const filteredArray = prevMovies.filter(movie => movie.id !== id)
       return filteredArray
@@ -54,28 +47,27 @@ function App() {
     setMovies(updatedArray)
     console.log(updatedArray)
   }
-  //console.log(movies)
 
   const moviesFilteredByGenres = movies.filter(movie => movie.genre === selectedGenre || selectedGenre === "All")
 
   return (
 
     <div className={isDarkMode ? "App" : "App light"}>
-
       <NavBar isDarkMode={isDarkMode} handleDarkMode={handleDarkMode} />
       <Routes>
-        <Route path="/" element={<>
-          <TrailerSlide />
-          <Home />
-        </>
+        <Route path="/" element={
+          <>
+            <PostersSlide />
+            <Home />
+          </>
         } />
-        <Route path="/movies" element={<>
-          <Genres genres={genres} selectedGenre={selectedGenre} setSelectedGenre={setSelectedGenre} />
-          <MovieList movies={moviesFilteredByGenres} onDeleteMovie={onDeleteMovie} onUpdateMovie={handleUpdateMovie} />
-        </>
+        <Route path="/movies" element={
+          <>
+            <Genres genres={genres} selectedGenre={selectedGenre} setSelectedGenre={setSelectedGenre} />
+            <MovieList movies={moviesFilteredByGenres} onDeleteMovie={onDeleteMovie} onUpdateMovie={handleUpdateMovie} />
+          </>
         } />
         <Route path="/movie/new" element={<NewMovieForm addNewMovie={addNewMovie} />} />
-
       </Routes>
     </div>
   );

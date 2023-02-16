@@ -14,7 +14,7 @@ const Home = () => {
         <div className='videoContainer'>
             <div style={{ margin: "1rem 0" }}>
                 <a className="button" href="/movies">
-                    View All Movies
+                    View All Movies Here
                     <br></br>
                 </a>
                 <br></br>

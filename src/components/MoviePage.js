@@ -22,11 +22,8 @@ function MoviePage({ movie, onDeleteMovie, onUpdateMovie }) {
     };
 
     function handleStars() {
-        //console.log(movie)
+
         const newStarObj = { star: movie.star + 1 }
-        //console.log(newStarObj)
-
-
 
         fetch(`http://localhost:3000/movies/${id}`, {
             method: "PATCH",

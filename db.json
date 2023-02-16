@@ -22,12 +22,12 @@
     },
     {
       "id": 2,
-      "title": "Kingsman: The Secret Service",
-      "year": "2014",
-      "poster": "./images/kingsman.jpg",
+      "title": "Mad Max: Fury Road",
+      "year": "2015",
+      "poster": "./images/madmax.jpg",
       "genre": "Action",
-      "star": 5,
-      "about": "A young man named Gary Eggsy Unwin (Taron Egerton), whose father died when he was a young boy, is dealing with living with the creep his mother is with now, who mistreats her and him. He goes out and does something to one of the creep's friends. He gets arrested and he calls the number a man gave him around the time his father died, to call if he needs help. A man named Harry Hart (Colin Firth) approaches him and tells him he's the one who helped him. He tells him that he knew his father. When the man Eggsy slighted wants some payback, Harry takes care of him and his companions single-handedly. Harry then tells Eggsy that he's part of a secret organization called The Kingsman, and his father was also part of it. He died trying to make the world safe. Harry offers Eggsy the opportunity to be a Kingsman, and he takes it. He undergoes a gruelling training course. Harry is looking into the demise of another Kingsman, and the trail leads him to tech billionaire Valentine, a.k.a. V (Samuel L. Jackson), who is also curious about the group following him, the Kingsman."
+      "star": 1,
+      "about": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and almost everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order. There's Max, a man of action and a man of few words, who seeks peace of mind following the loss of his wife and child in the aftermath of the chaos. And Furiosa, a woman of action and a woman who believes her path to survival may be achieved if she can make it across the desert back to her childhood homeland."
     },
     {
       "id": 3,
@@ -35,7 +35,7 @@
       "year": "2022",
       "poster": "./images/bullettrain.jpg",
       "genre": "Action",
-      "star": 5,
+      "star": 6,
       "about": "Unlucky assassin Ladybug (Brad Pitt) is determined to do his job peacefully after one too many gigs has gone off the rails. Fate has other plans, however: Ladybug's latest mission puts him on a collision course with lethal adversaries from around the globe--all with connected, yet conflicting, objectives--on the world's fastest train. The end of the line is just the beginning in this non-stop thrill-ride through modern-day Japan."
     },
     {
@@ -44,7 +44,7 @@
       "year": "2022",
       "poster": "./images/batman.jpg",
       "genre": "Action",
-      "star": 2,
+      "star": 3,
       "about": "On Halloween, Gotham City mayor Don Mitchell Jr. is murdered by a serial killer calling himself the Riddler. Billionaire Bruce Wayne, who has operated for two years as the vigilante Batman, investigates alongside the Gotham City Police Department (GCPD). Lieutenant James Gordon discovers that the Riddler left a message for Batman, but commissioner Pete Savage berates him for allowing a vigilante to enter the crime scene and forces Batman to leave. The Riddler kills Savage and leaves another message for Batman."
     },
     {
@@ -71,7 +71,7 @@
       "year": "2016",
       "poster": "./images/sing.jpg",
       "genre": "Cartoon",
-      "star": 3,
+      "star": 4,
       "about": "In a world of anthropomorphic animals, koala Buster Moon owns a theater, having been interested in show business since his father took him to his first music show as a child. Following financial problems brought up by the bank representative Judith, he tells his wealthy friend Eddie that he will host a singing competition with a prize of $1,000. But Buster's assistant, Miss Crawly, accidentally appends two extra zeroes, and the promotional fliers showing $100,000 are blown out of Buster's office into the city streets."
     },
     {
@@ -116,7 +116,7 @@
       "year": "2015",
       "poster": "./images/vacation.jpg",
       "genre": "Comedy",
-      "star": 3,
+      "star": 4,
       "about": "Following in the footsteps of his father, Clark Griswold, the man with a vision in National Lampoon's Vacation (1983), his son, too, the hard-working family man, Rusty Griswold, wants to have some quality time with his wife, Debbie, and their two sons, Kevin and James. With the idea of revisiting the place of his vivid childhood memories, the exciting Walley World, keep coming to mind, Rusty decides to surprise his family with his proposal for an unforgettable trip across the country in their rented Albanian SUV. However, as the Griswolds hit the road for some serious family-bonding, this is easier said than done, and, disaster after disaster, Rusty's romantic intentions seem to go down the drain. Can some minor mishaps thwart Rusty's plans for creating the perfect family vacation?"
     },
     {
@@ -370,6 +370,14 @@
       "genre": "Thriller",
       "star": 5,
       "about": "Though Kevin (James McAvoy) has evidenced 23 personalities to his trusted psychiatrist, Dr. Fletcher (Betty Buckley), there remains one still submerged who is set to materialize and dominate all of the others. Compelled to abduct three teenage girls led by the willful, observant Casey, Kevin reaches a war for survival among all of those contained within him -- as well as everyone around him -- as the walls between his compartments shatter."
+    },
+    {
+      "title": "nbmn",
+      "year": "j,",
+      "poster": "",
+      "genre": "",
+      "about": "",
+      "id": 41
     }
   ]
 }

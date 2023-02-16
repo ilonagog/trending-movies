@@ -3,19 +3,7 @@
 @tailwind utilities;
 
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 :root {
   --turquoise: #13c9bd;
@@ -37,33 +25,7 @@ code {
   --primary: var(--turquoise);
 }
 
-.movie-image img {
-  width: 100%;
-  max-width: 1000px;
-  display: block;
-  margin-bottom: 2rem;
-}
-
-h2 {
-  color: rgb(13, 185, 185);
-}
-
-.trending {
-  width: 30%;
-  height: 40px;
-}
-
-.star {
-  border: none;
-}
-
-.delete {
-  border: none;
-
-}
-
 /* layout */
-
 * {
   padding: 0;
   margin: 0;
@@ -104,16 +66,11 @@ section {
   align-items: center;
 }
 
-h3 {
-  color: rgb(13, 185, 185);
-}
-
 /* buttons */
-
 button {
   padding: 0.5rem 0.75rem;
   border: none;
-  font: inherit;
+  /* font: inherit; */
   font-weight: 600;
   color: black;
   cursor: pointer;
@@ -127,16 +84,27 @@ button.active,
 button:focus,
 button:hover {
   outline: none;
-  /* color: var(--white); */
+  color: var(--white);
   background-color: var(--primary);
   border: 2px solid var(--primary);
 }
 
-button:disabled {
+/* a {
+  color: var(--color);
+  border-bottom: 1px solid var(--color);
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: var(--blue);
+  border-bottom: 1px solid var(--blue);
+} */
+
+/* button:disabled {
   cursor: not-allowed;
   color: var(--dark-grey);
   background-color: var(--grey);
-}
+} */
 
 /* header */
 
@@ -153,6 +121,13 @@ header {
   position: absolute;
   top: 15px;
   left: 30px;
+}
+
+.movie-image img {
+  width: 100%;
+  max-width: 1000px;
+  display: block;
+  margin-bottom: 2rem;
 }
 
 /* forms */
@@ -175,7 +150,7 @@ textarea,
 select {
   margin-top: 0.25rem;
   margin-bottom: 1rem;
-
+  color: black;
   border: none;
   font-size: 1.25rem;
   font-weight: bold;
@@ -228,12 +203,16 @@ select:focus {
 .videos {
   align-items: center;
   column-gap: 3rem;
-  display: flex;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
 .videoContainer {
   padding-left: 20px;
   align-items: center;
+
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
 .container {
@@ -251,12 +230,15 @@ select:focus {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.5rem;
+
 }
 
 .card {
+
   max-width: 400px;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  border: 2px solid var(--dark-turquoise);
 }
 
 @media screen and (max-width: 588px) {
@@ -283,6 +265,15 @@ select:focus {
   margin: 0.5rem;
 }
 
+h2 {
+  color: rgb(13, 185, 185);
+}
+
+h3 {
+  color: rgb(13, 185, 185);
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .details h4 {
   margin: 0.5rem 0;
 }
@@ -292,6 +283,11 @@ select:focus {
   margin: 0.5rem 0;
 }
 
+p {
+  color: steelblue;
+}
+
+
 .card .extra {
   margin-top: auto;
 }
@@ -299,6 +295,20 @@ select:focus {
 
 .box {
   padding: 1.75rem;
+}
+
+.trending {
+  width: 30%;
+  height: 40px;
+}
+
+.star {
+  border: none;
+}
+
+.delete {
+  border: none;
+
 }
 
 .button,
@@ -353,3 +363,18 @@ header h1 a:hover {
 h1.branding {
   display: flex;
 }
+
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
