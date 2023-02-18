@@ -42,10 +42,10 @@ function App() {
   }
 
   function handleUpdateMovie(updatedStarMovie) {
-    console.log(updatedStarMovie)
+
     const updatedArray = movies.map((movie) => movie.id === updatedStarMovie.id ? updatedStarMovie : movie);
     setMovies(updatedArray)
-    console.log(updatedArray)
+
   }
 
   const moviesFilteredByGenres = movies.filter(movie => movie.genre === selectedGenre || selectedGenre === "All")

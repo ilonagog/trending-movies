@@ -5,7 +5,7 @@ const Home = () => {
     const handleVideos = trailerVideos.map(video => {
         return (
             <div className="container">
-                <iframe className="videos" src={video.embedUrl} title={video.title} id={video.id} allowFullScreen frameBorder="0"></iframe>
+                <iframe className="videos" id={video.id} src={video.embedUrl} title={video.title} allowFullScreen frameBorder="0"></iframe>
             </div>
         )
     })
@@ -21,10 +21,10 @@ const Home = () => {
                 <h3 style={{ fontSize: "3rem" }}>Upcomming Movie Trailers : </h3>
             </div>
             <br></br>
-            <div>
-                <div className='videos' >
-                    {handleVideos}
-                </div>
+
+            <div className='videos' >
+                {handleVideos}
+
             </div>
         </div>
 

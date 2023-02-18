@@ -17,7 +17,7 @@
       "year": "2008",
       "poster": "./images/dark knight.jpg",
       "genre": "Action",
-      "star": 3,
+      "star": 5,
       "about": "Set within a year after the events of Batman Begins (2005), Batman, Lieutenant James Gordon, and new District Attorney Harvey Dent successfully begin to round up the criminals that plague Gotham City, until a mysterious and sadistic criminal mastermind known only as The Joker appears in Gotham, creating a new wave of chaos. Batman's struggle against The Joker becomes deeply personal, forcing him to confront everything he believes and improve his technology to stop him. A love triangle develops between Bruce Wayne, Dent, and Rachel Dawes."
     },
     {
@@ -26,7 +26,7 @@
       "year": "2015",
       "poster": "./images/madmax.jpg",
       "genre": "Action",
-      "star": 1,
+      "star": 3,
       "about": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and almost everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order. There's Max, a man of action and a man of few words, who seeks peace of mind following the loss of his wife and child in the aftermath of the chaos. And Furiosa, a woman of action and a woman who believes her path to survival may be achieved if she can make it across the desert back to her childhood homeland."
     },
     {
@@ -35,7 +35,7 @@
       "year": "2022",
       "poster": "./images/bullettrain.jpg",
       "genre": "Action",
-      "star": 6,
+      "star": 4,
       "about": "Unlucky assassin Ladybug (Brad Pitt) is determined to do his job peacefully after one too many gigs has gone off the rails. Fate has other plans, however: Ladybug's latest mission puts him on a collision course with lethal adversaries from around the globe--all with connected, yet conflicting, objectives--on the world's fastest train. The end of the line is just the beginning in this non-stop thrill-ride through modern-day Japan."
     },
     {
@@ -62,7 +62,7 @@
       "year": "2016",
       "poster": "./images/trolls.jpg",
       "genre": "Cartoon",
-      "star": 2,
+      "star": 3,
       "about": "From the creators of Shrek comes the most smart, funny, irreverent animated comedy of the year, DreamWorks' Trolls. This holiday season, enter a colorful, wondrous world populated by hilariously unforgettable characters and discover the story of the overly optimistic Trolls, with a constant song on their lips, and the comically pessimistic Bergens, who are only happy when they have trolls in their stomach. Featuring original music from Justin Timberlake, and soon-to-be classic mash-ups of songs from other popular artists, the film stars the voice talents of Anna Kendrick, Justin Timberlake, Russell Brand, James Corden, Kunal Nayyar, Ron Funches, Icona Pop, Gwen Stefani, and many more. DreamWorks' TROLLS is a fresh, broad comedy filled with music, heart and hair-raising adventures. In November of 2016, nothing can prepare you for our new Troll world."
     },
     {
@@ -71,7 +71,7 @@
       "year": "2016",
       "poster": "./images/sing.jpg",
       "genre": "Cartoon",
-      "star": 4,
+      "star": 5,
       "about": "In a world of anthropomorphic animals, koala Buster Moon owns a theater, having been interested in show business since his father took him to his first music show as a child. Following financial problems brought up by the bank representative Judith, he tells his wealthy friend Eddie that he will host a singing competition with a prize of $1,000. But Buster's assistant, Miss Crawly, accidentally appends two extra zeroes, and the promotional fliers showing $100,000 are blown out of Buster's office into the city streets."
     },
     {
@@ -372,8 +372,8 @@
       "about": "Though Kevin (James McAvoy) has evidenced 23 personalities to his trusted psychiatrist, Dr. Fletcher (Betty Buckley), there remains one still submerged who is set to materialize and dominate all of the others. Compelled to abduct three teenage girls led by the willful, observant Casey, Kevin reaches a war for survival among all of those contained within him -- as well as everyone around him -- as the walls between his compartments shatter."
     },
     {
-      "title": "nbmn",
-      "year": "j,",
+      "title": "",
+      "year": "",
       "poster": "",
       "genre": "",
       "about": "",

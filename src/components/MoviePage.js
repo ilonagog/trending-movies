@@ -53,7 +53,7 @@ function MoviePage({ movie, onDeleteMovie, onUpdateMovie }) {
                     </section>
                     <footer className='footer'>
                         <button className='star' onClick={handleStars}>⭐{star}</button>
-                        <button className="info" onClick={handleFlip}>Info</button>
+                        <button className="info" onClick={handleFlip}>Synopsis</button>
                         <button className="delete" onClick={handleDeleteClick}>🚮</button>
                     </footer>
                 </li>
