@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
 
-function NavBar({ isDarkMode, handleDarkMode }) {
+const NavBar = ({ isDarkMode, handleDarkMode }) => {
     const buttonText = isDarkMode ? "Light Mode" : "Dark Mode";
     return (
         <header >

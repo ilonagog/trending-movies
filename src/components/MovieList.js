@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import MoviePage from './MoviePage';
 
-function MovieList({ movies, onDeleteMovie, onUpdateMovie }) {
+const MovieList = ({ movies, onDeleteMovie, onUpdateMovie }) => {
 
     const [search, setSearch] = useState("");
 

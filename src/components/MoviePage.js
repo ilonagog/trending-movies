@@ -4,7 +4,7 @@ import ReactCardFlip from 'react-card-flip';
 
 
 
-function MoviePage({ movie, onDeleteMovie, onUpdateMovie }) {
+const MoviePage = ({ movie, onDeleteMovie, onUpdateMovie }) => {
     const { id, title, year, poster, genre, star, about } = movie;
     const [isFlipped, setIsFlipped] = useState(false)
 

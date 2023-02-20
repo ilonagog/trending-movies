@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Genres({ genres, selectedGenre, setSelectedGenre }) {
+const Genres = ({ genres, selectedGenre, setSelectedGenre }) => {
     const filteredButtons = genres.map((genre) => (
         <button
             key={genre}

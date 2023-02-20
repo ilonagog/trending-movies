@@ -14,6 +14,7 @@ function PostersSlide() {
         slider.scrollLeft = slider.scrollLeft + 500;
     };
 
+
     return (
         <>
             <div className='relative flex items-center'>

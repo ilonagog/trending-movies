@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function NewMovieForm({ addNewMovie }) {
+const NewMovieForm = ({ addNewMovie }) => {
     const [error, setError] = useState("")
     const [newTitle, setNewTitle] = useState("")
     const [newYear, setNewYear] = useState("")
