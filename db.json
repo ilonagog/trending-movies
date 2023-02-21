@@ -134,7 +134,7 @@
       "year": "2019",
       "poster": "./images/murder mystery .jpg",
       "genre": "Comedy",
-      "star": 3,
+      "star": 4,
       "about": "When an NYC cop (Adam Sandler) finally takes his wife (Jennifer Aniston) on a long promised European trip, a chance meeting on the flight gets them invited to an intimate family gathering on the Super Yacht of elderly billionaire Malcolm Quince. When Quince is murdered, they become the prime suspects in a modern day whodunit."
     },
     {
@@ -296,7 +296,7 @@
       "year": "2014",
       "poster": "./images/prometheus.jpg",
       "genre": "Sci-fi",
-      "star": 1,
+      "star": 2,
       "about": "Following a faint trail of clues, the accomplished archaeologist, Doctor Elizabeth Shaw, and her partner, Charlie Holloway, along with a seventeen-man crew, embark on an ambitious, deep-space scientific expedition. Aboard the revolutionary space-exploration starship, USCSS Prometheus, the team sets foot on the rocky terrain of the desolate exomoon, LV-223, in 2093, to investigate the existence of the superior extraterrestrial species known as the Engineers. But, there, inside a mysterious, complex structure of cavernous dark chambers and an intricate underground system of tunnels, more enigmas await. Now, a terrifying discovery threatens not only the outcome of the bold outer-space mission but also the very future of humankind. Is the world prepared for the answers to the fundamental questions of human existence?"
     },
     {
@@ -394,6 +394,22 @@
       "genre": "",
       "about": "",
       "id": 43
+    },
+    {
+      "title": "",
+      "year": "",
+      "poster": "",
+      "genre": "",
+      "about": "",
+      "id": 44
+    },
+    {
+      "title": "",
+      "year": "",
+      "poster": "",
+      "genre": "",
+      "about": "",
+      "id": 45
     }
   ]
 }

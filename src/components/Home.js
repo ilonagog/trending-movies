@@ -2,13 +2,11 @@ import React from 'react'
 import trailerVideos from './Videos'
 
 const Home = () => {
-    const handleVideos = trailerVideos.map(video => {
-        return (
-            <div className="container">
-                <iframe className="videos" id={video.id} src={video.embedUrl} title={video.title} allowFullScreen frameBorder="0"></iframe>
-            </div>
-        )
-    })
+    const handleVideos = trailerVideos.map(video =>
+
+        <iframe className="videos" key={video.id} src={video.embedUrl} title={video.title} allowFullScreen frameBorder="0"></iframe>
+
+    )
 
     return (
         <div className='videoContainer'>

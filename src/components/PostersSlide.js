@@ -1,5 +1,5 @@
 import React from 'react'
-import { trailers } from './Trailers';
+import { posters } from './Posters';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 
 
@@ -22,10 +22,10 @@ function PostersSlide() {
                 <div id='slider'
                     className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'
                 >
-                    {trailers.map((trailer) => (
-                        <img id={trailer.id}
+                    {posters.map((poster) => (
+                        <img key={poster.id}
                             className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300'
-                            src={trailer.img}
+                            src={poster.img}
                             alt='/'
                         />
                     ))}
