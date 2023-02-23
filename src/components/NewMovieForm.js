@@ -2,41 +2,38 @@ import { useState } from 'react'
 
 const NewMovieForm = ({ addNewMovie }) => {
 
-    const [newTitle, setNewTitle] = useState("")
-    const [newYear, setNewYear] = useState("")
-    const [newPoster, setNewPoster] = useState("")
-    const [newGenre, setNewGenre] = useState("")
-    const [newAbout, setNewAbout] = useState("")
+    const [title, setTitle] = useState("")
+    const [year, setYear] = useState("")
+    const [poster, setPoster] = useState("")
+    const [genre, setGenre] = useState("")
+    const [about, setAbout] = useState("")
 
     const resetForm = () => {
-        setNewTitle("")
-        setNewYear("")
-        setNewPoster("")
-        setNewGenre("")
-        setNewAbout("")
+        setTitle("")
+        setYear("")
+        setPoster("")
+        setGenre("")
+        setAbout("")
     }
     const handleSubmit = (e) => {
         e.preventDefault()
-
-        const newMovie = {
-            title: newTitle,
-            year: newYear,
-            poster: newPoster,
-            genre: newGenre,
-            about: newAbout
-        }
-
 
         fetch(" http://localhost:3000/movies", {
             method: "POST",
             headers: {
                 "Content-type": "application/json",
             },
-            body: JSON.stringify(newMovie)
+            body: JSON.stringify({
+                title: title,
+                year: year,
+                poster: poster,
+                genre: genre,
+                about: about
+            })
         })
             .then((r) => r.json())
-            .then((movie) => {
-                addNewMovie(movie);
+            .then((newMovie) => {
+                addNewMovie(newMovie);
                 resetForm()
             })
     }
@@ -46,19 +43,19 @@ const NewMovieForm = ({ addNewMovie }) => {
             <form className='form' onSubmit={handleSubmit} >
                 <h3>Add New Movie</h3>
                 <label htmlFor="title">Title</label>
-                <input type="text" id="title" title="title" value={newTitle} onChange={(e) => setNewTitle(e.target.value)} />
+                <input type="text" id="title" title="title" value={title} onChange={(e) => setTitle(e.target.value)} />
 
                 <label htmlFor="year">Year</label>
-                <input type="text" id="year" year="year" value={newYear} onChange={(e) => setNewYear(e.target.value)} />
+                <input type="text" id="year" year="year" value={year} onChange={(e) => setYear(e.target.value)} />
 
                 <label htmlFor="poster">Poster</label>
-                <input type="text" id="poster" poster="poster" value={newPoster} onChange={(e) => setNewPoster(e.target.value)} />
+                <input type="text" id="poster" poster="poster" value={poster} onChange={(e) => setPoster(e.target.value)} />
 
                 <label htmlFor="genre">Genre</label>
-                <input type="text" id="genre" genre="genre" value={newGenre} onChange={(e) => setNewGenre(e.target.value)} />
+                <input type="text" id="genre" genre="genre" value={genre} onChange={(e) => setGenre(e.target.value)} />
 
                 <label htmlFor="about">Synopsis</label>
-                <input type="text" id="about" about="about" value={newAbout} onChange={(e) => setNewAbout(e.target.value)} />
+                <input type="text" id="about" about="about" value={about} onChange={(e) => setAbout(e.target.value)} />
 
                 <br></br>
                 <button className="submit" type="submit">Add Movie</button>
