@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 const NewMovieForm = ({ addNewMovie }) => {
-    const [error, setError] = useState("")
+
     const [newTitle, setNewTitle] = useState("")
     const [newYear, setNewYear] = useState("")
     const [newPoster, setNewPoster] = useState("")
@@ -25,11 +25,7 @@ const NewMovieForm = ({ addNewMovie }) => {
             genre: newGenre,
             about: newAbout
         }
-        if (newTitle.length === 0 || newYear.length === 0 || newPoster.length === 0 || newGenre.length === 0 || newAbout.length === 0) {
-            setError(true)
-        } else {
-            resetForm()
-        }
+
 
         fetch(" http://localhost:3000/movies", {
             method: "POST",
@@ -51,23 +47,19 @@ const NewMovieForm = ({ addNewMovie }) => {
                 <h3>Add New Movie</h3>
                 <label htmlFor="title">Title</label>
                 <input type="text" id="title" title="title" value={newTitle} onChange={(e) => setNewTitle(e.target.value)} />
-                {error && newTitle.length <= 0 ? <label>("Please Fill the Form")</label> : ""}
 
                 <label htmlFor="year">Year</label>
                 <input type="text" id="year" year="year" value={newYear} onChange={(e) => setNewYear(e.target.value)} />
-                {error && newYear.length <= 0 ? <label>("Please Fill the Form")</label> : ""}
 
                 <label htmlFor="poster">Poster</label>
                 <input type="text" id="poster" poster="poster" value={newPoster} onChange={(e) => setNewPoster(e.target.value)} />
-                {error && newPoster.length <= 0 ? <label>("Please Fill the Form")</label> : ""}
 
                 <label htmlFor="genre">Genre</label>
                 <input type="text" id="genre" genre="genre" value={newGenre} onChange={(e) => setNewGenre(e.target.value)} />
-                {error && newGenre.length <= 0 ? <label>("Please Fill the Form")</label> : ""}
 
                 <label htmlFor="about">Synopsis</label>
                 <input type="text" id="about" about="about" value={newAbout} onChange={(e) => setNewAbout(e.target.value)} />
-                {error && newAbout.length <= 0 ? <label>("Please Fill the Form")</label> : ""}
+
                 <br></br>
                 <button className="submit" type="submit">Add Movie</button>
             </form>
