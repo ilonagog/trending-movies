@@ -22,7 +22,6 @@ const MovieList = ({ movies, onDeleteMovie, onUpdateMovie }) => {
                 {movieListPage}
             </ul>
         </div>
-
     )
 }
 export default MovieList;

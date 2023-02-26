@@ -18,13 +18,13 @@ function App() {
   useEffect(() => {
     fetch(" http://localhost:3000/movies")
       .then((r) => r.json())
-      .then(setMovies)
+      .then((data) => setMovies(data))
   }, []);
 
   useEffect(() => {
     fetch(" http://localhost:3000/genres")
-      .then(resp => resp.json())
-      .then(data => setGenres(data))
+      .then((resp) => resp.json())
+      .then((data) => setGenres(data))
   }, [])
 
   const handleDarkMode = () => {
@@ -32,30 +32,27 @@ function App() {
   }
 
   const addNewMovie = (newMovie) => {
-    setMovies((movie) => [...movie, newMovie])
+    setMovies((moviesObj) => [...moviesObj, newMovie])
   }
   const onDeleteMovie = (id) => {
     setMovies(prevMovies => {
-      const filteredArray = prevMovies.filter(movie => movie.id !== id)
+      const filteredArray = prevMovies.filter((movie) => movie.id !== id)
       return filteredArray
     })
   }
 
   function handleUpdateMovie(updatedStarMovie) {
-
     const updatedArray = movies.map((movie) => movie.id === updatedStarMovie.id ? updatedStarMovie : movie);
     setMovies(updatedArray)
-
   }
 
-  const moviesFilteredByGenres = movies.filter(movie => movie.genre === selectedGenre || selectedGenre === "All")
+  const moviesFilteredByGenres = movies.filter((movie) => movie.genre === selectedGenre || selectedGenre === "All")
 
   return (
-
     <div className={isDarkMode ? "App" : "App light"}>
       <NavBar isDarkMode={isDarkMode} handleDarkMode={handleDarkMode} />
       <Routes>
-        <Route path="/" element={
+        <Route exact path="/" element={
           <>
             <PostersSlide />
             <Home />

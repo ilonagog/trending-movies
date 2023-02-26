@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const NavBar = ({ isDarkMode, handleDarkMode }) => {
     const buttonText = isDarkMode ? "Light Mode" : "Dark Mode";
@@ -7,16 +7,15 @@ const NavBar = ({ isDarkMode, handleDarkMode }) => {
         <header >
             <nav>
                 <div className="navigation">
-                    <NavLink className="button " to="/">
+                    <Link className="button" to="/">
                         Home
-                    </NavLink>
-                    <NavLink className="button" to="/movies">
+                    </Link>
+                    <Link className="button" to="/movies">
                         Movies
-                    </NavLink>
-
-                    <NavLink className="button" to="/movie/new">
+                    </Link>
+                    <Link className="button" to="/movie/new">
                         Add New Movie
-                    </NavLink>
+                    </Link>
                     <button className='button' onClick={handleDarkMode}>{buttonText}</button>
                 </div>
             </nav>

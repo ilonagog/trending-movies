@@ -93,7 +93,9 @@ button:hover {
   color: var(--color);
   border-bottom: 1px solid var(--color);
   text-decoration: none;
-}
+} */
+
+/*
 
 a:hover {
   background-color: var(--blue);
@@ -302,7 +304,15 @@ p {
   height: 40px;
 }
 
-.star {
+.heart {
+  border: none;
+}
+
+.favorite.active {
+  border: none;
+}
+
+.favorite {
   border: none;
 }
 

@@ -8,19 +8,15 @@ const Genres = ({ genres, selectedGenre, setSelectedGenre }) => {
             className={genre === selectedGenre ? "selected" : null}>
             {genre}
         </button>
-
     ));
     return (
         <div>
             <section >
                 <h2>Genres</h2>
                 <div className="filter" >
-
                     {filteredButtons}
-
                 </div>
             </section>
-
         </div>
     )
 }

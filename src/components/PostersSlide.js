@@ -2,7 +2,6 @@ import React from 'react'
 import { posters } from './Posters';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 
-
 function PostersSlide() {
     const slideLeft = () => {
         var slider = document.getElementById('slider');
@@ -13,7 +12,6 @@ function PostersSlide() {
         var slider = document.getElementById('slider');
         slider.scrollLeft = slider.scrollLeft + 500;
     };
-
 
     return (
         <>
