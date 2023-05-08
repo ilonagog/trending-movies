@@ -12,15 +12,7 @@ const NavBar = ({ isDarkMode, handleDarkMode }) => {
                     <Link className="button" to="/">
                         Home
                     </Link>
-                    {/* <Link className="button" to="/movies">
-                        Movies
-                    </Link>
-                    <Link className="button" to="/movie/new">
-                        Add New Movie
-                    </Link> */}
-                    {/* <Link className="button" to="/ilona">
-                        Ilona
-                    </Link> */}
+
 
                     <button className='button' onClick={handleDarkMode}>{buttonText}</button>
                 </div>
