@@ -1,11 +1,13 @@
 import React from 'react'
 import trailerVideos from './Videos'
 
-const Home = () => {
+const Home = ({ age }) => {
     const handleVideos = trailerVideos.map(video =>
         <iframe className="videos" key={video.id} src={video.embedUrl} title={video.title} allowFullScreen frameBorder="0"></iframe>
     )
-
+    console.log(age)
+    age = age + 1
+    console.log(age)
     return (
         <div className='videoContainer'>
             <div style={{ margin: "1rem 0" }}>

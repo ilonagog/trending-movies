@@ -8,6 +8,9 @@ import MovieList from './components/MovieList';
 import Genres from './components/Genres';
 import NewMovieForm from './components/NewMovieForm';
 import PostersSlide from './components/PostersSlide';
+// import Test2 from './components/Test2';
+// //import Test from "./components/Test"
+// import Ilona from './components/Ilona';
 
 function App() {
   const [selectedGenre, setSelectedGenre] = useState("All")
@@ -19,13 +22,14 @@ function App() {
     fetch(" http://localhost:3000/movies")
       .then((r) => r.json())
       .then((data) => setMovies(data))
-  }, []);
 
-  useEffect(() => {
     fetch(" http://localhost:3000/genres")
       .then((resp) => resp.json())
       .then((data) => setGenres(data))
-  }, [])
+  }, []);
+
+  // useEffect(() => {
+  // }, [])
 
   const handleDarkMode = () => {
     setIsDarkMode((isDarkMode) => !isDarkMode);
@@ -41,30 +45,33 @@ function App() {
     })
   }
 
-  function handleUpdateMovie(updatedStarMovie) {
-    const updatedArray = movies.map((movie) => movie.id === updatedStarMovie.id ? updatedStarMovie : movie);
+  function handleUpdateMovie(updatedHeartMovie) {
+    const updatedArray = movies.map((movie) => movie.id === updatedHeartMovie.id ? updatedHeartMovie : movie);
     setMovies(updatedArray)
   }
-
   const moviesFilteredByGenres = movies.filter((movie) => movie.genre === selectedGenre || selectedGenre === "All")
 
   return (
     <div className={isDarkMode ? "App" : "App light"}>
       <NavBar isDarkMode={isDarkMode} handleDarkMode={handleDarkMode} />
+      {/* <Test2 /> */}
+      {/* <Test /> */}
       <Routes>
         <Route exact path="/" element={
           <>
             <PostersSlide />
-            <Home />
+            <Home age={21} />
           </>
         } />
-        <Route path="/movies" element={
+        <Route exact path="/movies" element={
           <>
             <Genres genres={genres} selectedGenre={selectedGenre} setSelectedGenre={setSelectedGenre} />
             <MovieList movies={moviesFilteredByGenres} onDeleteMovie={onDeleteMovie} onUpdateMovie={handleUpdateMovie} />
           </>
         } />
-        <Route path="/movie/new" element={<NewMovieForm addNewMovie={addNewMovie} />} />
+        <Route exact path="/movie/new" element={<NewMovieForm addNewMovie={addNewMovie} />} />
+        {/* <Route exact path="/ilona" element={<Ilona />} /> */}
+
       </Routes>
     </div>
   );

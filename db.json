@@ -21,21 +21,12 @@
       "about": "Set within a year after the events of Batman Begins (2005), Batman, Lieutenant James Gordon, and new District Attorney Harvey Dent successfully begin to round up the criminals that plague Gotham City, until a mysterious and sadistic criminal mastermind known only as The Joker appears in Gotham, creating a new wave of chaos. Batman's struggle against The Joker becomes deeply personal, forcing him to confront everything he believes and improve his technology to stop him. A love triangle develops between Bruce Wayne, Dent, and Rachel Dawes."
     },
     {
-      "id": 2,
-      "title": "Mad Max: Fury Road",
-      "year": "2015",
-      "poster": "./images/madmax.jpg",
-      "genre": "Action",
-      "heart": 3,
-      "about": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and almost everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order. There's Max, a man of action and a man of few words, who seeks peace of mind following the loss of his wife and child in the aftermath of the chaos. And Furiosa, a woman of action and a woman who believes her path to survival may be achieved if she can make it across the desert back to her childhood homeland."
-    },
-    {
       "id": 3,
       "title": "Bullet Train",
       "year": "2022",
       "poster": "./images/bullettrain.jpg",
       "genre": "Action",
-      "heart": 1,
+      "heart": 4,
       "about": "Unlucky assassin Ladybug (Brad Pitt) is determined to do his job peacefully after one too many gigs has gone off the rails. Fate has other plans, however: Ladybug's latest mission puts him on a collision course with lethal adversaries from around the globe--all with connected, yet conflicting, objectives--on the world's fastest train. The end of the line is just the beginning in this non-stop thrill-ride through modern-day Japan."
     },
     {
@@ -44,7 +35,7 @@
       "year": "2022",
       "poster": "./images/batman.jpg",
       "genre": "Action",
-      "heart": 1,
+      "heart": 3,
       "about": "On Halloween, Gotham City mayor Don Mitchell Jr. is murdered by a serial killer calling himself the Riddler. Billionaire Bruce Wayne, who has operated for two years as the vigilante Batman, investigates alongside the Gotham City Police Department (GCPD). Lieutenant James Gordon discovers that the Riddler left a message for Batman, but commissioner Pete Savage berates him for allowing a vigilante to enter the crime scene and forces Batman to leave. The Riddler kills Savage and leaves another message for Batman."
     },
     {
@@ -296,7 +287,7 @@
       "year": "2014",
       "poster": "./images/prometheus.jpg",
       "genre": "Sci-fi",
-      "heart": 5,
+      "heart": 6,
       "about": "Following a faint trail of clues, the accomplished archaeologist, Doctor Elizabeth Shaw, and her partner, Charlie Holloway, along with a seventeen-man crew, embark on an ambitious, deep-space scientific expedition. Aboard the revolutionary space-exploration starship, USCSS Prometheus, the team sets foot on the rocky terrain of the desolate exomoon, LV-223, in 2093, to investigate the existence of the superior extraterrestrial species known as the Engineers. But, there, inside a mysterious, complex structure of cavernous dark chambers and an intricate underground system of tunnels, more enigmas await. Now, a terrifying discovery threatens not only the outcome of the bold outer-space mission but also the very future of humankind. Is the world prepared for the answers to the fundamental questions of human existence?"
     },
     {
@@ -350,7 +341,7 @@
       "year": "2010",
       "poster": "./images/shutter island.jpg",
       "genre": "Thriller",
-      "heart": 3,
+      "heart": 4,
       "about": "In 1954, up-and-coming U.S. marshal Teddy Daniels is assigned to investigate the disappearance of a patient from Boston's Shutter Island Ashecliffe Hospital. He's been pushing for an assignment on the island for personal reasons, but before long he thinks he's been brought there as part of a twisted plot by hospital doctors whose radical treatments range from unethical to illegal to downright sinister. Teddy's shrewd investigating skills soon provide a promising lead, but the hospital refuses him access to records he suspects would break the case wide open. As a hurricane cuts off communication with the mainland, more dangerous criminals escape in the confusion, and the puzzling, improbable clues multiply, Teddy begins to doubt everything - his memory, his partner, even his own sanity."
     },
     {
