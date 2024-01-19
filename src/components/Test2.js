@@ -20,6 +20,12 @@
 //   }
 
 
+
+
+{/* <Link to={`/countries/${id}/tours/new`}>
+    <button className="form-link" >Add Tours</button>
+</Link> */}
+
 //   return (
 
 //     <form className='form' onSubmit={handleSubmit}>
